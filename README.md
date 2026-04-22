@@ -62,7 +62,7 @@ This theme was inspired by the efficiency of es-theme-minimal by Rookervik and h
 
 \- es-theme-minimal demonstrated that a fully functional theme could remain extremely small (around 4MB)
 
-\- This project used that concept as a benchmark for what is possible, targeting a compact final size of roughly 8.5MB
+\- This project used that concept as a benchmark for what is possible, targeting a compact final size of roughly 8MB
 
 
 
