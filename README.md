@@ -56,7 +56,7 @@ A lightweight, visually sharp theme that feels modern without losing the retro i
 
 
 
-This theme was inspired by the efficiency of es-theme-minimal by Rookervik and contributors.
+This theme was inspired by the efficiency of es-theme-minimal by Rookervik and https://github.com/Jetup13/es-theme-minimal-arkos.
 
 
 
