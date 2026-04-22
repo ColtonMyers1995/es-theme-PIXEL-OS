@@ -1,0 +1,31 @@
+﻿<theme>
+
+<view name="system">
+
+<image name="staticBackground">
+<path>./assets2/bg.png</path>
+</image>
+
+<image name="logo">
+<path>./art2/${system.theme}.svg</path>
+<path>./art2/${system.theme}.png</path>
+</image>
+
+</view>
+
+<subset name="background">
+<include name="default"/>
+<include name="portal">./assets2/bg2.xml</include>
+<include name="landscape">./assets2/bg4.xml</include>
+<include name="disc">./assets2/bg1.xml</include>
+<include name="desktop">./assets2/bg3.xml</include>
+<include name="shelves">./assets2/bg5.xml</include>
+<include name="terminal">./assets/bg6.xml</include>
+<include name="pixel os">./assets/bg7.xml</include>
+<include name="cityscape">./assets/bg8.xml</include>
+<include name="planets">./assets/bg9.xml</include>
+<include name="japan sky">./assets/bg10.xml</include>
+<include name="monster">./assets/bg11.xml</include>
+</subset>
+
+</theme>

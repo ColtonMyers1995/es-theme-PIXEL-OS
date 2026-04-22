@@ -1,0 +1,58 @@
+﻿<theme>
+  <formatVersion>7</formatVersion>
+
+  <view name="system">
+    <image name="staticBackground">
+      <path>./bg8.png</path>
+    </image>
+
+<image name="logo">
+      <path>./art/${system.theme}.svg</path>
+	  <path>./art/${system.theme}.png</path>
+      <reflexion>0.1 0.1</reflexion>
+      <reflexionOnFrame>true</reflexionOnFrame>
+      <color>FFFFFFFF</color>
+    </image>
+
+
+    <carousel name="systemcarousel">
+      <type>horizontal_wheel</type>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <color>00000000</color>
+
+      <!-- less wide -->
+      <logoScale>2.2</logoScale>
+      <logoSize>0.20 0.13</logoSize>
+
+      <!-- lowered -->
+<logoPos>0.4 0.52</logoPos>
+
+      <logoRotation>90</logoRotation>
+      <logoRotationOrigin>0.5 44</logoRotationOrigin>
+      <logoAlignment>center</logoAlignment>
+      <maxLogoCount>1</maxLogoCount>
+
+    </carousel>
+  </view>
+
+  <view name="basic, detailed, grid">
+    <text name="system_name">
+      <text>${system.fullName}</text>
+      <pos>0.03 0.08</pos>
+      <size>0.8 0.1</size>
+      <alignment>left</alignment>
+      <fontSize>0.07</fontSize>
+      <color>FFFFFFFF</color>
+      <zIndex>10</zIndex>
+    </text>
+
+    <image name="background">
+      <path>./bg8.png</path>
+      <color>10A090</color>
+    </image>
+  </view>
+
+</theme>
+

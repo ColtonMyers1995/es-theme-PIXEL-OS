@@ -1,0 +1,7 @@
+﻿<theme>
+    <view name="system, basic, detailed, grid">
+        <image name="staticBackground">
+            <color>E0E0E0FF</color>
+        </image>
+    </view>
+</theme>

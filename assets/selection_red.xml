@@ -1,0 +1,17 @@
+﻿<theme>
+
+    <view name="menu">
+        <menuText name="menutext">
+            <selectorColor>AA3030</selectorColor>
+            <selectorColorEnd>802020</selectorColorEnd>
+        </menuText>
+    </view>
+
+    <view name="basic">
+        <textlist name="gamelist">
+            <selectorColor>AA3030</selectorColor>
+            <selectorColorEnd>802020</selectorColorEnd>
+        </textlist>
+    </view>
+
+</theme>

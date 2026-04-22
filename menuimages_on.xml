@@ -1,0 +1,35 @@
+﻿<theme>
+
+  <!-- MENU BACKGROUND -->
+  <view name="menu">
+    <menuBackground name="menubg">
+      <color>000000FF</color>
+      <cornerSize>0 0</cornerSize>
+      <path></path>
+    </menuBackground>
+  </view>
+
+  <!-- GAMELIST BACKGROUND ONLY -->
+  <view name="basic, detailed, grid">
+
+    <!-- override the base blackbg layer -->
+    <image name="blackbg" extra="true">
+      <size>1 1</size>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <color>000000FF</color>
+      <zIndex>0</zIndex>
+    </image>
+
+    <!-- OPTIONAL: kill background images if you want PURE black -->
+    <image name="background" extra="true">
+      <color>00000000</color>
+    </image>
+
+    <image name="backgroundx" extra="true">
+      <color>00000000</color>
+    </image>
+
+  </view>
+
+</theme>
