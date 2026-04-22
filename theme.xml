@@ -338,7 +338,6 @@
 
 <subset name="background" displayName="${backgroundSubsetName}">
 <include name="portal">./assets/bg2.xml</include>
-<include name="default"/>
 <include name="landscape">./assets/bg4.xml</include>
 <include name="disc">./assets/bg1.xml</include>
 <include name="desktop">./assets/bg3.xml</include>

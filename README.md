@@ -199,13 +199,8 @@ Instead:
 
 
 
-Clone into your EmulationStation themes directory:
+## Installation (ArkOS)
 
-
-
-```bash
-
-cd \~/.emulationstation/themes
-
-git clone https://github.com/Kicdutch/es-theme-PIXEL-OS.git
+cd /roms/themes
+git clone https://github.com/ColtonMyers1995/es-theme-PIXEL-OS.git
 

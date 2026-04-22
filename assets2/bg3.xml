@@ -29,5 +29,15 @@
       <path>./bg3.png</path>
       <color>808080</color>
     </image>
+
+    <text name="system_name">
+     <text>${system.fullName}</text>
+     <pos>0.03 0.08</pos>
+     <size>0.8 0.1</size>
+     <alignment>left</alignment>
+     <fontSize>0.07</fontSize>
+     <color>FFFFFFFF</color>
+     <zIndex>10</zIndex>
+    </text>
   </view>
 </theme>

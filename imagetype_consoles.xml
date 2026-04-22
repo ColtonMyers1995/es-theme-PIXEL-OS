@@ -9,7 +9,6 @@
 </view>
 
 <subset name="background">
-<include name="default"/>
 <include name="portal">./assets2/bg2.xml</include>
 <include name="landscape">./assets2/bg4.xml</include>
 <include name="disc">./assets2/bg1.xml</include>
