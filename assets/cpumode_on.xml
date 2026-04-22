@@ -1,7 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<theme>
+﻿<theme>
 
-    <!-- disable default system info -->
     <view name="system">
         <text name="systemInfo">
             <visible>false</visible>
@@ -16,55 +14,40 @@
         <include name="4:3">./fullscreenv.xml</include>
     </subset>
 
-    <view name="screen">
-        <text name="clock">
-            <pos>0.85 -0.11</pos>
-            <size>0.07 .2</size>
-            <fontSize>0.025</fontSize>
-            <color>00000000</color>
-            <horizontalAlignment>center</horizontalAlignment>
-            <verticalAlignment>center</verticalAlignment>
-            <fontPath>./assets/SST.ttf</fontPath>
-        </text>
+  <view name="screen">
+    <text name="clock">
+      <pos>0.85 -0.11</pos>
+      <size>0.07 .2</size>
+      <fontSize>0.025</fontSize>
+      <color>00000000</color>
+      <horizontalAlignment>center</horizontalAlignment>
+      <verticalAlignment>center</verticalAlignment>
+      <fontPath>./assets/SST.ttf</fontPath>
+    </text>
 
-        <header name="header">
-            <backgroundColor>00000000</backgroundColor>
-            <textColor>00000000</textColor>
-            <iconColor>00000000</iconColor>
-        </header>
-    </view>
-
-    <!-- ✅ ACTIVE SYSTEM OVERRIDE -->
-    <view name="system">
-
-        <!-- ✅ system name (THIS is the fix) -->
-        <text name="system_name">
-            <text>${system.fullName}</text>
-            <pos>0.25 0.06</pos>
-            <size>0.50 0.05</size>
-            <alignment>center</alignment>
-            <fontPath>./assets/SST.ttf</fontPath>
-            <fontSize>0.05</fontSize>
-            <color>FFFFFFFF</color>
-            <zIndex>50</zIndex>
-        </text>
-
-        <helpsystem name="help">
-            <textColor>00000000</textColor>
-            <iconColor>00000000</iconColor>
-            <fontSize>0.025</fontSize>
-            <fontPath>./assets/SST.ttf</fontPath>
-        </helpsystem>
-
-    </view>
-
-    <view name="basic, detailed, grid">
-        <helpsystem name="help">
-            <textColor>00000000</textColor>
-            <iconColor>00000000</iconColor>
-            <fontSize>0.025</fontSize>
-            <fontPath>./assets/SST.ttf</fontPath>
-        </helpsystem>
-    </view>
+<header name="header">
+    <backgroundColor>00000000</backgroundColor>
+    <textColor>00000000</textColor>
+    <iconColor>00000000</iconColor>
+  </header>
+  </view>
+  
+  <view name="system">
+    <helpsystem name="help">
+	  <textColor>00000000</textColor>
+      <iconColor>00000000</iconColor>
+      <fontSize>0.025</fontSize>
+      <fontPath>./assets/SST.ttf</fontPath>
+    </helpsystem>
+  </view>
+  
+  <view name="basic, detailed, grid">
+    <helpsystem name="help">
+	  <textColor>00000000</textColor>
+      <iconColor>00000000</iconColor>
+      <fontSize>0.025</fontSize>
+      <fontPath>./assets/SST.ttf</fontPath>
+    </helpsystem>
+  </view>
 
 </theme>
