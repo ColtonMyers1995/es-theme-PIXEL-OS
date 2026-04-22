@@ -70,7 +70,7 @@ Important:
 
 
 
-\- No assets, layouts, or code were reused  
+\- No assets, layouts, or code were reused from Minimal, but icons were repurposed from [jessikarochas es-theme-pixel-perfect] and PIXEL(metadata) theme.
 
 \- Everything in this theme has been recreated from scratch  
 

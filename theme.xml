@@ -26,7 +26,7 @@
     </textlist>
   
     <menuText name="menutitle">
-      <fontPath>./assets/noto.ttf</fontPath>
+      <fontPath>./assets/SST.ttf</fontPath>
       <fontSize>0.044</fontSize>
       <color>ffffff</color>
     </menuText>
@@ -100,7 +100,7 @@
     </image>
 	
     <text name="logoText">
-      <fontPath>./assets/miss.ttf</fontPath>
+      <fontPath>./assets/SST.ttf</fontPath>
       <fontSize>0.092</fontSize>
       <color>FFFFFFFF</color>
       <reflexion>0 0</reflexion>
@@ -137,15 +137,6 @@
       <origin>0 0</origin>
       <path>./assets/bg.png</path>
       <zIndex>1</zIndex>
-      <color>00000000</color>
-    </image>
-	
-    <image name="backgroundx" extra="true">
-      <size>1 1</size>
-      <pos>0 0</pos>
-      <origin>0 0</origin>
-      <path>./assets/gamelist.png</path>
-      <zIndex>2</zIndex>
       <color>00000000</color>
     </image>
 	
@@ -192,7 +183,8 @@
       <size>0.347 0.183</size>
       <color>ffffff</color>
       <fontSize>0.025</fontSize>
-      <fontPath>./assets/noto.ttf</fontPath>
+      <fontPath>./assets/SST.ttf</fontPath>
+
     </text>
 	
     <image name="logo">
@@ -203,8 +195,7 @@
 	
   </view>
   
-  <view name="basic, detailed">
-  
+  <view name="basic,detailed">
     <textlist name="gamelist">
       <selectorColor>0f85a5</selectorColor>
       <selectorColorEnd>0F6585</selectorColorEnd>
@@ -218,7 +209,7 @@
       <selectSound>./sounds/select.wav</selectSound>
       <backSound>./sounds/back.wav</backSound>
       <launchSound>./sounds/launch.wav</launchSound>      
-<size>0.50 0.70</size>
+      <size>0.50 0.70</size>
       <alignment>left</alignment>
       <horizontalMargin>0.01</horizontalMargin>
       <origin>0 0</origin>
@@ -227,7 +218,6 @@
       <selectorOffsetY>-0.01</selectorOffsetY>
       <selectorHeight>0.0675</selectorHeight>
     </textlist>
-	
   </view>
   
   <view name="grid">
@@ -363,14 +353,23 @@
 
 
 <subset name="imagetype" displayName="${imageTypeName}">
-<include name="Consoles">./imagetype_logos.xml</include>
-<include name="Logos"/>
+<include name="Console Icons">./imagetype_logos.xml</include>
+<include name="Console Images">./imagetype_consoles.xml</include>
+<include name="Console Logos"/>
 </subset>
 
 <subset name="portraytype" displayName="${portrayTypeName}">
 <include name="Themed"/>
 <include name="1 Icon">./assets/portraytype.xml</include>
 <include name="3 Icons">./assets/portraytype2.xml</include>
+</subset>
+
+<subset name="gamelistmode" displayName="${gamelistModeName}">
+<include name="Full Terminal">./assets/gamelist_fullt.xml</include>
+<include name="Full Themed">./assets/gamelist_full.xml</include>
+<include name="Left"/>
+<include name="Center">./assets/gamelist_center.xml</include>
+<include name="Right">./assets/gamelist_right.xml</include>
 </subset>
 
 <subset name="color" displayName="${contrastName}">
@@ -393,12 +392,6 @@
 <include name="Yellow">./assets/selection_yellow.xml</include>
 <include name="Orange">./assets/selection_orange.xml</include>
 <include name="Pink">./assets/selection_pink.xml</include>
-</subset>
-
-<subset name="gamelistmode" displayName="${gamelistModeName}">
-<include name="Center">./assets/gamelist_center.xml</include>
-<include name="Left"/>
-<include name="Right">./assets/gamelist_right.xml</include>
 </subset>
 
 <subset name="menuimages" displayName="${menuImagesName}">

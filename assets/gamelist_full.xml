@@ -1,0 +1,89 @@
+﻿<theme>
+<view name="basic, detailed">
+    <textlist name="gamelist">
+      <fontPath>./assets/SST.ttf</fontPath>
+      <fontSize>0.06</fontSize>
+      <scrollSound>./sounds/scroll.wav</scrollSound>
+      <selectSound>./sounds/select.wav</selectSound>
+      <backSound>./sounds/back.wav</backSound>
+      <launchSound>./sounds/launch.wav</launchSound>  
+      <zIndex>3</zIndex>
+    </textlist>
+  </view>
+  <view name="basic,detailed">
+
+<text name="system_name">
+  <size>0.4 0.05</size>
+  <fontSize>0.04</fontSize>
+  <zIndex>5</zIndex>
+</text>
+
+    <textlist name="gamelist">
+      <pos>0.515 0.04</pos>
+      <size>0.47 0.95</size>
+      <alignment>left</alignment>
+    </textlist>
+    <image name="background2" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./inc/images/bg.detail.png</path>
+      <zIndex>4</zIndex>
+    </image>
+    <image name="md_image">
+      <origin>0.5 0.5</origin>
+      <pos>0.251 0.72</pos>
+      <size>0.47 0.465</size>
+      <zIndex>2</zIndex>
+    </image>
+    <video name="md_video">
+      <origin>0.5 0.5</origin>
+      <pos>0.251 0.72</pos>
+      <maxSize>0.47 0.47</maxSize>
+      <delay>3</delay>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <showSnapshotDelay>true</showSnapshotDelay>
+      <zIndex>2</zIndex>
+    </video>
+    <rating name="md_rating">
+      <origin>0.5 0.5</origin>
+      <zIndex>5</zIndex>
+      <pos>0.266 0.435</pos>
+      <size>0.054 0.054</size>
+      <filledPath>./inc/images/rating.full.png</filledPath>
+      <unfilledPath>./inc/images/rating.hollow.png</unfilledPath>
+      <zIndex>2</zIndex>
+    </rating>
+    <text name="md_publisher,md_developer,md_players,md_genre">
+      <origin>0.5 0.5</origin>
+      <size>0.6 0.6</size>
+      <fontPath>./assets/SST.ttf</fontPath>
+      <color>c1c1c1</color>
+      <zIndex>2</zIndex>
+    </text>
+    <text name="md_publisher">
+      <pos>0.316 0.283</pos>
+    </text>
+    <text name="md_developer,md_players">
+      <alignment>right</alignment>
+    </text>
+    <text name="md_developer">
+      <pos>0.186 0.283</pos>
+    </text>
+    <text name="md_players">
+      <pos>0.15 0.36</pos>
+    </text>
+    <text name="md_genre">
+      <pos>0.316 0.36</pos>
+    </text>
+    <datetime name="md_releasedate">
+      <origin>0.5 0.5</origin>
+      <pos>0.316 0.32</pos>
+      <size>0.6 0.6</size>
+      <color>c1c1c1</color>
+      <format>%m/%Y</format>
+      <fontPath>./assets/SST.ttf</fontPath>
+      <zIndex>2</zIndex>
+    </datetime>	
+  </view>
+ </theme>

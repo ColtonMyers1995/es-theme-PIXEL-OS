@@ -3,8 +3,7 @@
 <view name="system">
 
 <image name="logo">
-<path>./art2/${system.theme}.svg</path>
-<path>./art2/${system.theme}.png</path>
+<path>./art3/${system.theme}.png</path>
 </image>
 
 </view>
