@@ -7,8 +7,6 @@
     </image>
 
 <image name="logo">
-      <path>./art/${system.theme}.svg</path>
-	  <path>./art/${system.theme}.png</path>
       <reflexion>0.1 0.1</reflexion>
       <reflexionOnFrame>true</reflexionOnFrame>
       <color>FFFFFFFF</color>
