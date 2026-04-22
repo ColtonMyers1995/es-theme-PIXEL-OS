@@ -1,7 +1,7 @@
 ﻿<theme>
   <formatVersion>7</formatVersion>
-  
-  <view name="screen">
+
+    <view name="screen">
 	
     <controllerActivity name="controllerActivity">
       <pos>0.832 0.025</pos>
@@ -17,6 +17,13 @@
   </view>
   
   <view name="menu">
+
+    <textlist name="menulist">
+      <scrollSound>./sounds/scroll.wav</scrollSound>
+      <selectSound>./sounds/select.wav</selectSound>
+      <backSound>./sounds/back.wav</backSound>
+      <launchSound>./sounds/launch.wav</launchSound>
+    </textlist>
   
     <menuText name="menutitle">
       <fontPath>./assets/noto.ttf</fontPath>
@@ -58,6 +65,10 @@
        <size>1 1</size>
        <pos>0 0</pos>
        <origin>0 0</origin>
+       <scrollSound>./sounds/scroll.wav</scrollSound>
+      <selectSound>./sounds/select.wav</selectSound>
+      <backSound>./sounds/back.wav</backSound>
+      <launchSound>./sounds/launch.wav</launchSound>
        <tile>false</tile>
        <linearSmooth>true</linearSmooth>
        <path>./assets/bg.png</path>
@@ -203,7 +214,11 @@
       <fontPath>./assets/SST.ttf</fontPath>
       <fontSize>0.03</fontSize>
       <pos>0.051 0.170</pos>
-      <size>0.50 0.70</size>
+      <scrollSound>./sounds/scroll.wav</scrollSound>
+      <selectSound>./sounds/select.wav</selectSound>
+      <backSound>./sounds/back.wav</backSound>
+      <launchSound>./sounds/launch.wav</launchSound>      
+<size>0.50 0.70</size>
       <alignment>left</alignment>
       <horizontalMargin>0.01</horizontalMargin>
       <origin>0 0</origin>
@@ -289,10 +304,18 @@
       <logoRotationOrigin>0.5 44</logoRotationOrigin>
       <logoAlignment>center</logoAlignment>
       <maxLogoCount>5</maxLogoCount>
+      <scrollSound>./sounds/scroll.wav</scrollSound>
+      <selectSound>./sounds/select.wav</selectSound>
+      <backSound>./sounds/back.wav</backSound>
+      <launchSound>./sounds/launch.wav</launchSound>
 </carousel>
 
 	
     <text name="systemInfo">
+      <scrollSound>./sounds/scroll.wav</scrollSound>
+      <selectSound>./sounds/select.wav</selectSound>
+      <backSound>./sounds/back.wav</backSound>
+      <launchSound>./sounds/launch.wav</launchSound>
       <pos>0 0.87</pos>
       <size>1 0.06</size>
       <alignment>center</alignment>
@@ -307,12 +330,13 @@
   <variables>
 <fullscreenfixSubsetname>Screen Size</fullscreenfixSubsetname>
 <backgroundSubsetName>Internal Theme</backgroundSubsetName>
-<imageTypeName>System Style</imageTypeName>
+<imageTypeName>Icon Style</imageTypeName>
 <contrastName>Contrast Color</contrastName>
 <gamelistModeName>Gamelist Position</gamelistModeName>
 <menuImagesName>Menu Transparency</menuImagesName>
 <selectionName>Selection Color</selectionName>
 <BoostName>Minimal System View</BoostName>
+<portrayTypeName>Icon Layout</portrayTypeName>
 </variables>
 
 
@@ -343,16 +367,32 @@
 <include name="Logos"/>
 </subset>
 
+<subset name="portraytype" displayName="${portrayTypeName}">
+<include name="Themed"/>
+<include name="1 Icon">./assets/portraytype.xml</include>
+<include name="3 Icons">./assets/portraytype2.xml</include>
+</subset>
+
 <subset name="color" displayName="${contrastName}">
 <include name="High">./assets/contrast_bright.xml</include>
 <include name="None">./assets/contrast_blue.xml</include>
+<include name="Purple">./assets/contrast_purple.xml</include>
 <include name="Blue"/>
 <include name="Red">./assets/contrast_red.xml</include>
-<include name="Purple">./assets/contrast_purple.xml</include>
 <include name="Green">./assets/contrast_green.xml</include>
 <include name="Yellow">./assets/contrast_yellow.xml</include>
 <include name="Orange">./assets/contrast_orange.xml</include>
 <include name="Pink">./assets/contrast_pink.xml</include>
+</subset>
+
+<subset name="selection" displayName="${selectionName}">
+<include name="Purple">./assets/selection_purple.xml</include>
+<include name="Blue"/>
+<include name="Red">./assets/selection_red.xml</include>
+<include name="Green">./assets/selection_green.xml</include>
+<include name="Yellow">./assets/selection_yellow.xml</include>
+<include name="Orange">./assets/selection_orange.xml</include>
+<include name="Pink">./assets/selection_pink.xml</include>
 </subset>
 
 <subset name="gamelistmode" displayName="${gamelistModeName}">
@@ -366,19 +406,31 @@
 <include name="Off">./menuimages_on.xml</include>
 </subset>
 
-<subset name="selection" displayName="${selectionName}">
-<include name="Purple">./assets/selection_purple.xml</include>
-<include name="Blue"/>
-<include name="Red">./assets/selection_red.xml</include>
-<include name="Green">./assets/selection_green.xml</include>
-<include name="Yellow">./assets/selection_yellow.xml</include>
-<include name="Orange">./assets/selection_orange.xml</include>
-<include name="Pink">./assets/selection_pink.xml</include>
-</subset>
-
 <subset name="Boost" displayName="${BoostName}">
 <include name="On">./assets/cpumode_on.xml</include>
 <include name="Off"/>
 </subset>
+
+<view name="basic, detailed, video, grid">
+	<sound name="scroll">
+		<path>./sounds/scroll.wav</path>
+	</sound>
+	<sound name="launch">
+		<path>./sounds/launch.wav</path>
+	</sound>
+	<sound name="back">
+		<path>./sounds/back.wav</path>
+	</sound>
+</view>
+
+<view name="system">
+	<sound name="scroll">
+		<path>./sounds/scroll.wav</path>
+	</sound>
+	<sound name="launch">
+		<path>./sounds/select.wav</path>
+	</sound>
+
+</view>
 
 </theme>
