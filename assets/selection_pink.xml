@@ -7,7 +7,7 @@
         </menuText>
     </view>
 
-    <view name="basic">
+    <view name="basic,detailed">
         <textlist name="gamelist">
             <selectorColor>D060A0</selectorColor>
             <selectorColorEnd>903070</selectorColorEnd>

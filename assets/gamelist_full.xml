@@ -1,5 +1,6 @@
 ﻿<theme>
-<view name="basic, detailed">
+
+<view name="basic,detailed">
     <textlist name="gamelist">
       <fontPath>./assets/SST.ttf</fontPath>
       <fontSize>0.06</fontSize>
@@ -10,8 +11,8 @@
       <zIndex>3</zIndex>
     </textlist>
   </view>
-  <view name="basic,detailed">
 
+  <view name="basic,detailed">
 <text name="system_name">
   <size>0.4 0.05</size>
   <fontSize>0.04</fontSize>
@@ -20,7 +21,7 @@
 
     <textlist name="gamelist">
       <pos>0.515 0.04</pos>
-      <size>0.47 0.95</size>
+      <size>0.47 0.63</size>
       <alignment>left</alignment>
     </textlist>
     <image name="background2" extra="true">
@@ -34,17 +35,8 @@
       <origin>0.5 0.5</origin>
       <pos>0.251 0.72</pos>
       <size>0.47 0.465</size>
-      <zIndex>2</zIndex>
+      <zIndex>5</zIndex>
     </image>
-    <video name="md_video">
-      <origin>0.5 0.5</origin>
-      <pos>0.251 0.72</pos>
-      <maxSize>0.47 0.47</maxSize>
-      <delay>3</delay>
-      <showSnapshotNoVideo>true</showSnapshotNoVideo>
-      <showSnapshotDelay>true</showSnapshotDelay>
-      <zIndex>2</zIndex>
-    </video>
     <rating name="md_rating">
       <origin>0.5 0.5</origin>
       <zIndex>5</zIndex>
@@ -52,7 +44,7 @@
       <size>0.054 0.054</size>
       <filledPath>./inc/images/rating.full.png</filledPath>
       <unfilledPath>./inc/images/rating.hollow.png</unfilledPath>
-      <zIndex>2</zIndex>
+      <zIndex>5</zIndex>
     </rating>
     <text name="md_publisher,md_developer,md_players,md_genre">
       <origin>0.5 0.5</origin>

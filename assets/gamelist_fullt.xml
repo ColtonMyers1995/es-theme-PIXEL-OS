@@ -20,7 +20,7 @@
 
     <textlist name="gamelist">
       <pos>0.515 0.04</pos>
-      <size>0.47 0.95</size>
+      <size>0.47 0.63</size>
       <alignment>left</alignment>
       <zIndex>5</zIndex>
     </textlist>
@@ -35,17 +35,8 @@
       <origin>0.5 0.5</origin>
       <pos>0.251 0.72</pos>
       <size>0.47 0.465</size>
-      <zIndex>2</zIndex>
+      <zIndex>5</zIndex>
     </image>
-    <video name="md_video">
-      <origin>0.5 0.5</origin>
-      <pos>0.251 0.72</pos>
-      <maxSize>0.47 0.47</maxSize>
-      <delay>3</delay>
-      <showSnapshotNoVideo>true</showSnapshotNoVideo>
-      <showSnapshotDelay>true</showSnapshotDelay>
-      <zIndex>2</zIndex>
-    </video>
     <rating name="md_rating">
       <origin>0.5 0.5</origin>
       <zIndex>5</zIndex>
@@ -53,14 +44,14 @@
       <size>0.054 0.054</size>
       <filledPath>./inc/images/rating.full.png</filledPath>
       <unfilledPath>./inc/images/rating.hollow.png</unfilledPath>
-      <zIndex>2</zIndex>
+      <zIndex>5</zIndex>
     </rating>
     <text name="md_publisher,md_developer,md_players,md_genre">
       <origin>0.5 0.5</origin>
       <size>0.6 0.6</size>
       <fontPath>./assets/SST.ttf</fontPath>
       <color>c1c1c1</color>
-      <zIndex>2</zIndex>
+      <zIndex>5</zIndex>
     </text>
     <text name="md_publisher">
       <pos>0.316 0.283</pos>
@@ -84,7 +75,7 @@
       <color>c1c1c1</color>
       <format>%m/%Y</format>
       <fontPath>./assets/SST.ttf</fontPath>
-      <zIndex>2</zIndex>
+      <zIndex>5</zIndex>
     </datetime>	
   </view>
  </theme>

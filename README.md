@@ -1,6 +1,6 @@
 \# es-theme-PIXEL-OS
 
-
+ArkOS theme version
 
 A sleek, modern, pixel-focused EmulationStation theme designed for performance, clarity, and customization.
 

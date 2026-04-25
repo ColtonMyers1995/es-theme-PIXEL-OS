@@ -1,4 +1,11 @@
-﻿<theme>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Theme: Minimal
+version: 2.0
+author: Lilbud
+license: creative commons CC-BY-NC-SA
+-->
+<theme>
   <formatVersion>4</formatVersion>
   <view name="menu">
     <menuText name="menutitle">
