@@ -123,14 +123,6 @@
   
   <view name="basic, detailed, grid">
 	
-    <image name="blackbg" extra="true">
-      <size>1 1</size>
-      <pos>0 0</pos>
-      <origin>0 0</origin>
-      <color>000000FF</color>
-      <zIndex>0</zIndex>
-    </image>
-	
     <image name="background" extra="true">
       <size>1 1</size>
       <pos>0 0</pos>
@@ -220,6 +212,19 @@
       <selectorOffsetY>-0.01</selectorOffsetY>
       <selectorHeight>0.0675</selectorHeight>
     </textlist>
+
+<rating name="md_rating">
+  <origin>0 1</origin>
+ <pos>0.06 0.95</pos>
+
+  <size>0.054 0.054</size>
+
+  <filledPath>./inc/images/star_filled.png</filledPath>
+  <unfilledPath>./inc/images/star_empty.png</unfilledPath>
+
+  <zIndex>6</zIndex>
+</rating>
+
   </view>
   
   <view name="grid">

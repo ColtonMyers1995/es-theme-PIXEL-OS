@@ -6,34 +6,53 @@
             <pos>0.25 0.085</pos>
             <size>0.50 0.025</size>
       <visible>false</visible>
-        </text>
 
+        </text>
         <text name="system_name">
             <pos>0.25 0.085</pos>
             <size>0.50 0.025</size>
         </text>
-
         <textlist name="gamelist">
-            <pos>0.25 0.170</pos>
-            <size>0.50 0.70</size>
+        <pos>0.125 0.170</pos>
+        <size>0.75 0.50</size>
+        <alignment>center</alignment>
         </textlist>
 
-    <text name="md_description">
-      <pos>0 0</pos>
-      <size>0 0</size>
-      <color>ffffff</color>
-      <fontSize>0</fontSize>
-      <fontPath>./assets/SST.ttf</fontPath>
-      <visible>false</visible>
-      </text>
+<image name="md_image">
+  <origin>0.5 0.5</origin>
 
-    <image name="md_image">
-      <origin>0.5 0.5</origin>
-      <pos>0 0</pos>
-      <size>0 0</size>
-      <zIndex>5</zIndex>
-      <visible>false</visible>
-    </image>
+  <!-- left half of new gamelist -->
+  <pos>0.3125 0.76</pos>
+
+  <size>0.28 0.22</size>
+  <zIndex>5</zIndex>
+</image>
+
+<text name="md_description">
+  <origin>0.5 0.5</origin>
+
+  <!-- right half -->
+  <pos>0.6875 0.76</pos>
+
+  <size>0.28 0.22</size>
+
+  <color>ffffff</color>
+  <fontSize>0.025</fontSize>
+  <fontPath>./assets/SST.ttf</fontPath>
+
+  <alignment>left</alignment>
+</text>
+
+<rating name="md_rating">
+  <origin>0.5 1</origin>
+ <pos>0.41 0.95</pos>
+ <size>0.054 0.054</size>
+
+  <filledPath>./inc/images/star_filled.png</filledPath>
+  <unfilledPath>./inc/images/star_empty.png</unfilledPath>
+
+  <zIndex>6</zIndex>
+</rating>
 
     </view>
 

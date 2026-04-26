@@ -33,6 +33,19 @@
   <fontPath>./assets/SST.ttf</fontPath>
 </text>
 
+<rating name="md_rating">
+  <origin>1 1</origin>
+
+  <pos>0.77 0.95</pos>
+
+  <size>0.054 0.054</size>
+
+  <filledPath>./inc/images/star_filled.png</filledPath>
+  <unfilledPath>./inc/images/star_empty.png</unfilledPath>
+
+  <zIndex>6</zIndex>
+</rating>
+
     </view>
 
 </theme>
