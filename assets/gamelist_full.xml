@@ -9,6 +9,7 @@
       <backSound>./sounds/back.wav</backSound>
       <launchSound>./sounds/launch.wav</launchSound>  
       <zIndex>3</zIndex>
+  <visible>true</visible>
     </textlist>
   </view>
 
@@ -20,11 +21,11 @@
 </text>
 
     <textlist name="gamelist">
-      <pos>0.515 0.04</pos>
-      <size>0.47 0.63</size>
+<pos>0.515 0.19</pos>
+<size>0.47 0.48</size>
       <alignment>left</alignment>
-    </textlist>
-    <image name="background2" extra="true">
+   </textlist>
+   <image name="background2" extra="true">
       <origin>0 0</origin>
       <pos>0 0</pos>
       <size>1 1</size>
@@ -42,10 +43,11 @@
       <zIndex>5</zIndex>
       <pos>0.266 0.435</pos>
       <size>0.054 0.054</size>
-      <filledPath>./inc/images/rating.full.png</filledPath>
-      <unfilledPath>./inc/images/rating.hollow.png</unfilledPath>
-      <zIndex>5</zIndex>
+<filledPath>./inc/images/star_filled.png</filledPath>
+<unfilledPath>./inc/images/star_empty.png</unfilledPath>
+      <zIndex>6</zIndex>
     </rating>
+
     <text name="md_publisher,md_developer,md_players,md_genre">
       <origin>0.5 0.5</origin>
       <size>0.6 0.6</size>

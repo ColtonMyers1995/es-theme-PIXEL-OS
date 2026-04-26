@@ -155,10 +155,6 @@
       <visible>false</visible>
     </text>
 	
-    <rating name="md_rating">
-      <visible>false</visible>
-    </rating>
-	
     <image name="md_thumbnail">
       <visible>false</visible>
       <origin>0.5 0.5</origin>
@@ -238,8 +234,8 @@
     </datetime>
 	
     <text name="md_rating">
-      <pos>0.88 0.88</pos>
-      <size>0.05 0.03</size>
+      <pos>0 0</pos>
+      <size>0 0</size>
     </text>
 	
     <text name="md_name">
