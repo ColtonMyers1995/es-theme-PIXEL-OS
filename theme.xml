@@ -174,14 +174,20 @@
 	  <effect>none</effect>
     </video>
 	
-    <text name="md_description">
-      <pos>0.605 0.685</pos>
-      <size>0.347 0.183</size>
-      <color>ffffff</color>
-      <fontSize>0.025</fontSize>
-      <fontPath>./assets/SST.ttf</fontPath>
+<image name="md_image">
+  <origin>0 0</origin>
+  <pos>0.60 0.22</pos>
+  <size>0.35 0.35</size>
+  <zIndex>5</zIndex>
+</image>
 
-    </text>
+<text name="md_description">
+  <pos>0.60 0.60</pos>
+  <size>0.35 0.20</size>
+  <color>ffffff</color>
+  <fontSize>0.025</fontSize>
+  <fontPath>./assets/SST.ttf</fontPath>
+</text>
 	
     <image name="logo">
       <pos>1 1</pos>

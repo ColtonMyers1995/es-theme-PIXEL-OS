@@ -1,33 +1,11 @@
 ﻿<theme>
 
-    <!-- BASIC -->
-    <view name="basic">
-
-        <!-- move title (both types) -->
-        <text name="md_name">
-            <pos>0.25 0.085</pos>
-            <size>0.50 0.025</size>
-        </text>
-
-        <text name="system_name">
-            <pos>0.25 0.085</pos>
-            <size>0.50 0.025</size>
-        </text>
-
-        <!-- move list -->
-        <textlist name="gamelist">
-            <pos>0.25 0.170</pos>
-            <size>0.50 0.70</size>
-        </textlist>
-
-    </view>
-
-    <!-- DETAILED -->
-    <view name="detailed">
+    <view name="basic,detailed">
 
         <text name="md_name">
             <pos>0.25 0.085</pos>
             <size>0.50 0.025</size>
+      <visible>false</visible>
         </text>
 
         <text name="system_name">
@@ -39,6 +17,23 @@
             <pos>0.25 0.170</pos>
             <size>0.50 0.70</size>
         </textlist>
+
+    <text name="md_description">
+      <pos>0 0</pos>
+      <size>0 0</size>
+      <color>ffffff</color>
+      <fontSize>0</fontSize>
+      <fontPath>./assets/SST.ttf</fontPath>
+      <visible>false</visible>
+      </text>
+
+    <image name="md_image">
+      <origin>0.5 0.5</origin>
+      <pos>0 0</pos>
+      <size>0 0</size>
+      <zIndex>5</zIndex>
+      <visible>false</visible>
+    </image>
 
     </view>
 

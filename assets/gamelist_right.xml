@@ -1,11 +1,11 @@
 ﻿<theme>
 
-    <!-- BASIC -->
-    <view name="basic">
+    <view name="basic,detailed">
 
         <text name="md_name">
-            <pos>0.45 0.085</pos>
-            <size>0.50 0.025</size>
+            <pos>0 0</pos>
+            <size>0 0</size>
+      <visible>false</visible>
         </text>
 
         <text name="system_name">
@@ -17,26 +17,21 @@
             <pos>0.45 0.170</pos>
             <size>0.50 0.70</size>
         </textlist>
+	
+<image name="md_image">
+  <origin>0 0</origin>
+  <pos>0.05 0.22</pos>
+  <size>0.35 0.35</size>
+  <zIndex>5</zIndex>
+</image>
 
-    </view>
-
-    <!-- DETAILED -->
-    <view name="detailed">
-
-        <text name="md_name">
-            <pos>0.45 0.085</pos>
-            <size>0.50 0.025</size>
-        </text>
-
-        <text name="system_name">
-            <pos>0.45 0.085</pos>
-            <size>0.50 0.025</size>
-        </text>
-
-        <textlist name="gamelist">
-            <pos>0.45 0.170</pos>
-            <size>0.50 0.70</size>
-        </textlist>
+<text name="md_description">
+  <pos>0.05 0.60</pos>
+  <size>0.35 0.20</size>
+  <color>ffffff</color>
+  <fontSize>0.025</fontSize>
+  <fontPath>./assets/SST.ttf</fontPath>
+</text>
 
     </view>
 
