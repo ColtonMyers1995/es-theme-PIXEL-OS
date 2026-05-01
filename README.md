@@ -38,13 +38,13 @@ A lightweight, visually sharp theme that feels modern without losing the retro i
 
 
 
-\- Minimal but not empty  
+\- Minimal but not empty
 
-\- Pixel-clean, not overly detailed  
+\- Pixel-clean, not overly detailed
 
-\- Fast and lightweight  
+\- Fast and lightweight
 
-\- Highly configurable without breaking layout integrity  
+\- Highly configurable without breaking layout integrity
 
 
 
@@ -62,7 +62,7 @@ This theme was inspired by the efficiency of es-theme-minimal by Rookervik and h
 
 \- es-theme-minimal demonstrated that a fully functional theme could remain extremely small (around 4MB)
 
-\- This project used that concept as a benchmark for what is possible, targeting a compact final size of roughly 8MB
+\- This project used that concept as a benchmark for what is possible, targeting a compact final size of roughly 9MB with quadruple the asset content.
 
 
 
@@ -70,11 +70,11 @@ Important:
 
 
 
-\- No assets, layouts, or code were reused from Minimal, but icons were repurposed from [jessikarochas es-theme-pixel-perfect] and PIXEL(metadata) theme.
+\- No assets, layouts, or code were reused from Minimal, but icons were repurposed from \[jessikarochas es-theme-pixel-perfect] and PIXEL(metadata) theme.
 
-\- Everything in this theme has been recreated from scratch  
+\- Everything in this theme has been recreated from scratch
 
-\- The reference was strictly conceptual (size and efficiency), not structural reuse  
+\- The reference was strictly conceptual (size and efficiency), not structural reuse
 
 
 
@@ -98,48 +98,48 @@ This theme includes extensive customization through EmulationStation theme confi
 
 
 
-\- Screen Size Support  
+\- Screen Size Support
 
-&#x20; Multiple layouts optimized for different display types  
-
-
-
-\- 12 Internal Themes  
-
-&#x20; Swap between built-in visual styles  
+&#x20; Multiple layouts optimized for different display types
 
 
 
-\- System Style Options  
+\- 12 Internal Themes
 
-&#x20; Choose between console imagery or clean logo-based layouts  
-
-
-
-\- Contrast Color Overlays  
-
-&#x20; Adjustable overlays for readability and style  
+&#x20; Swap between built-in visual styles
 
 
 
-\- Gamelist Positioning  
+\- System Style Options
 
-&#x20; Flexible placement options  
-
-
-
-\- Menu Transparency Options  
-
-&#x20; Control UI opacity levels  
+&#x20; Choose between console imagery or clean logo-based layouts
 
 
 
-\- Selection Colors  
+\- Contrast Color Overlays
 
-&#x20; Custom highlight color options  
+&#x20; Adjustable overlays for readability and style
 
-- Minimal System View
-  Turn off game-count and clock
+
+
+\- Gamelist Positioning
+
+&#x20; Flexible placement options
+
+
+
+\- Menu Transparency Options
+
+&#x20; Control UI opacity levels
+
+
+
+\- Selection Colors
+
+&#x20; Custom highlight color options
+
+Minimal System View
+Turn off game-count and clock
 
 
 
@@ -167,9 +167,9 @@ Instead:
 
 
 
-\- The system name is always shown in the gamelist view  
+\- The system name is always shown in the gamelist view
 
-\- Focus remains on artwork and navigation in system view  
+\- Focus remains on artwork and navigation in system view
 
 
 
@@ -181,13 +181,13 @@ Instead:
 
 
 
-\- Crisp pixel-inspired UI  
+\- Crisp pixel-inspired UI
 
-\- Balanced spacing and alignment  
+\- Balanced spacing and alignment
 
-\- Strong readability without heavy overlays  
+\- Strong readability without heavy overlays
 
-\- Clean transitions between views  
+\- Clean transitions between views
 
 
 
@@ -199,8 +199,13 @@ Instead:
 
 
 
-## Installation (ArkOS)
+Installation (ArkOS)
 
 cd /roms/themes
 git clone https://github.com/ColtonMyers1995/es-theme-PIXEL-OS.git
+
+
+**For use with PIXEL LABEL MANAGER**
+
+https://github.com/ColtonMyers1995/pixel-label-manager
 
