@@ -193,6 +193,7 @@ git clone https://github.com/ColtonMyers1995/es-theme-PIXEL-OS.git
 \## 🛠 Companion Tool
 
 
+PIXEL OS is designed to work with custom icons/logos/system PNGs!
 
 For creating custom labels compatible with this theme:
 
