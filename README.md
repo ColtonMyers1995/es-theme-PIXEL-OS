@@ -1,12 +1,12 @@
-\# es-theme-PIXEL-OS
+\# es-theme-PIXEL-OS by ColtonMyers1995
+
+
 
 ArkOS theme version
 
+
+
 A sleek, modern, pixel-focused EmulationStation theme designed for performance, clarity, and customization.
-
-
-
-This theme was built from the ground up with a strong focus on clean visuals, minimal clutter, and efficient asset usage, delivering a polished experience while maintaining a compact footprint.
 
 
 
@@ -22,9 +22,7 @@ This project aims to provide a modern pixel aesthetic without sacrificing speed 
 
 
 
-The goal is simple:
-
-
+\*\*Goal:\*\*
 
 A lightweight, visually sharp theme that feels modern without losing the retro identity of EmulationStation.
 
@@ -38,13 +36,13 @@ A lightweight, visually sharp theme that feels modern without losing the retro i
 
 
 
-\- Minimal but not empty
+\* Minimal, but not empty
 
-\- Pixel-clean, not overly detailed
+\* Pixel-clean, not overly detailed
 
-\- Fast and lightweight
+\* Fast and lightweight
 
-\- Highly configurable without breaking layout integrity
+\* Highly configurable without breaking layout integrity
 
 
 
@@ -56,29 +54,45 @@ A lightweight, visually sharp theme that feels modern without losing the retro i
 
 
 
-This theme was inspired by the efficiency of es-theme-minimal by Rookervik and https://github.com/Jetup13/es-theme-minimal-arkos.
+This theme was inspired by the efficiency of:
 
 
 
-\- es-theme-minimal demonstrated that a fully functional theme could remain extremely small (around 4MB)
-
-\- This project used that concept as a benchmark for what is possible, targeting a compact final size of roughly 9MB with quadruple the asset content.
+\* https://github.com/Rookervik/es-theme-minimal
 
 
 
-Important:
+\* https://github.com/Jetup13/es-theme-minimal-arkos
 
 
 
-\- No assets, layouts, or code were reused from Minimal, but icons were repurposed from \[jessikarochas es-theme-pixel-perfect] and PIXEL(metadata) theme.
-
-\- Everything in this theme has been recreated from scratch
-
-\- The reference was strictly conceptual (size and efficiency), not structural reuse
+\* `es-theme-minimal` demonstrated that a fully functional theme can remain extremely small (\~4MB)
 
 
 
-Credit goes to the original authors of es-theme-minimal for setting that standard.
+\* This project uses that concept as a benchmark, targeting \~9MB with significantly more assets
+
+
+
+\*\*Important:\*\*
+
+
+
+\* No layouts, assets, or code were reused from Minimal
+
+\* Icons were repurposed from:
+
+
+
+&#x20; \* jessikarochas es-theme-pixel-perfect
+
+&#x20; \* PIXEL(metadata) theme
+
+\* Everything else was built from scratch
+
+
+
+This reference was conceptual (efficiency), not structural reuse.
 
 
 
@@ -94,52 +108,25 @@ Credit goes to the original authors of es-theme-minimal for setting that standar
 
 
 
-This theme includes extensive customization through EmulationStation theme config subsets:
+This theme includes extensive customization through EmulationStation subsets:
 
 
 
-\- Screen Size Support
+\* Screen size support
 
-&#x20; Multiple layouts optimized for different display types
+\* 12 internal themes
 
+\* System style options (console art or logo-based)
 
+\* Contrast overlays for readability
 
-\- 12 Internal Themes
+\* Flexible gamelist positioning
 
-&#x20; Swap between built-in visual styles
+\* Menu transparency options
 
+\* Selection color customization
 
-
-\- System Style Options
-
-&#x20; Choose between console imagery or clean logo-based layouts
-
-
-
-\- Contrast Color Overlays
-
-&#x20; Adjustable overlays for readability and style
-
-
-
-\- Gamelist Positioning
-
-&#x20; Flexible placement options
-
-
-
-\- Menu Transparency Options
-
-&#x20; Control UI opacity levels
-
-
-
-\- Selection Colors
-
-&#x20; Custom highlight color options
-
-Minimal System View
-Turn off game-count and clock
+\* Minimal system view (hide clock + game count)
 
 
 
@@ -151,15 +138,15 @@ Turn off game-count and clock
 
 
 
-\### System View and System Name
+\### System View Behavior
 
 
 
-The system name is never displayed in system view.
+The system name is intentionally \*\*not shown in system view\*\*.
 
 
 
-This is to reduce visual clutter with MinSysView on.
+This reduces clutter when using minimal layouts.
 
 
 
@@ -167,9 +154,9 @@ Instead:
 
 
 
-\- The system name is always shown in the gamelist view
+\* System name appears in gamelist view
 
-\- Focus remains on artwork and navigation in system view
+\* System view focuses purely on artwork and navigation
 
 
 
@@ -181,13 +168,13 @@ Instead:
 
 
 
-\- Crisp pixel-inspired UI
+\* Crisp pixel-inspired UI
 
-\- Balanced spacing and alignment
+\* Clean spacing and alignment
 
-\- Strong readability without heavy overlays
+\* Strong readability without heavy overlays
 
-\- Clean transitions between views
+\* Smooth, consistent transitions
 
 
 
@@ -195,17 +182,53 @@ Instead:
 
 
 
-\## Installation
+\## Installation (ArkOS)
 
 
 
-Installation (ArkOS)
+```bash
 
 cd /roms/themes
+
 git clone https://github.com/ColtonMyers1995/es-theme-PIXEL-OS.git
 
+```
 
-**For use with PIXEL LABEL MANAGER**
 
-https://github.com/ColtonMyers1995/pixel-label-manager
+
+\---
+
+
+
+\## 🛠 Companion Tool
+
+
+
+For creating custom labels compatible with this theme:
+
+
+
+👉 https://github.com/ColtonMyers1995/pixel-label-manager
+
+
+
+\---
+
+
+
+\## Additional Credits
+
+
+
+\* Rookervik — es-theme-minimal
+
+\* Jetup13 — es-theme-minimal-arkos
+
+\* jessikarochas — pixel-perfect assets
+
+
+
+\---
+
+
 
