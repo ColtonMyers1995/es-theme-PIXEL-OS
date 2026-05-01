@@ -58,10 +58,6 @@ This theme was inspired by the efficiency of:
 
 
 
-\* https://github.com/Rookervik/es-theme-minimal
-
-
-
 \* https://github.com/Jetup13/es-theme-minimal-arkos
 
 
@@ -86,13 +82,7 @@ This theme was inspired by the efficiency of:
 
 &#x20; \* jessikarochas es-theme-pixel-perfect
 
-&#x20; \* PIXEL(metadata) theme
-
-\* Everything else was built from scratch
-
-
-
-This reference was conceptual (efficiency), not structural reuse.
+\ (Everything else was built from scratch)
 
 
 
