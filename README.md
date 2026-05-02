@@ -106,7 +106,7 @@ This theme includes extensive customization through EmulationStation subsets:
 
 \* 12 internal themes
 
-\* System style options (console art or logo-based)
+\* System style options (logo, icon, image)
 
 \* Contrast overlays for readability
 
@@ -193,7 +193,7 @@ git clone https://github.com/ColtonMyers1995/es-theme-PIXEL-OS.git
 \## 🛠 Companion Tool
 
 
-PIXEL OS is designed to work with custom icons/logos/system PNGs!
+PIXEL OS is designed to work with custom icon/logo/image PNGs!
 
 For creating custom labels compatible with this theme:
 
