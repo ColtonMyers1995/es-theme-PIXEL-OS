@@ -1,0 +1,51 @@
+<theme>
+
+<view name="menu">
+    <menuText name="menutitle">
+      <fontPath>./assets/big.TTF</fontPath>
+    </menuText>
+
+    <menuText name="menufooter">
+      <fontPath>./assets/big.TTF</fontPath>
+    </menuText>
+
+    <menuText name="menutext">
+      <fontPath>./assets/big.TTF</fontPath>
+    </menuText>
+
+    <menuTextSmall name="menutextsmall">
+      <fontPath>./assets/big.TTF</fontPath>
+    </menuTextSmall>
+</view>
+
+<view name="basic, detailed, grid">
+    <text name="system_name">
+      <fontPath>./assets/big.TTF</fontPath>
+    </text>
+
+    <text name="md_description">
+      <fontPath>./assets/big.TTF</fontPath>
+    </text>
+
+    <textlist name="gamelist">
+      <fontPath>./assets/big.TTF</fontPath>
+    </textlist>
+</view>
+
+<view name="system">
+    <text name="logoText">
+      <fontPath>./assets/big.TTF</fontPath>
+    </text>
+
+    <text name="systemInfo">
+      <fontPath>./assets/big.TTF</fontPath>
+    </text>
+</view>
+
+<view name="screen">
+    <text name="clock">
+      <fontPath>./assets/big.TTF</fontPath>
+    </text>
+</view>
+
+</theme>

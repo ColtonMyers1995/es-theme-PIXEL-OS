@@ -1,0 +1,90 @@
+<theme>
+
+<view name="menu">
+
+    <menuText name="menutitle">
+      <color>FF7AD9</color>
+    </menuText>
+
+    <menuText name="menufooter">
+      <color>FF7AD9</color>
+    </menuText>
+
+    <menuText name="menutext">
+      <color>FF7AD9</color>
+      <selectedColor>FF7AD9</selectedColor>
+    </menuText>
+
+    <menuTextSmall name="menutextsmall">
+      <color>FF7AD9</color>
+    </menuTextSmall>
+
+</view>
+
+<view name="basic, detailed, grid">
+
+    <text name="system_name">
+      <color>FF7AD9</color>
+    </text>
+
+    <text name="md_description">
+      <color>FF7AD9</color>
+    </text>
+
+    <text name="md_name">
+      <color>FF7AD9</color>
+    </text>
+
+    <text name="md_publisher">
+      <color>FF7AD9</color>
+    </text>
+
+    <text name="md_developer">
+      <color>FF7AD9</color>
+    </text>
+
+    <text name="md_players">
+      <color>FF7AD9</color>
+    </text>
+
+    <text name="md_genre">
+      <color>FF7AD9</color>
+    </text>
+
+    <text name="md_lbl_genre, md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_lbl_releasedate">
+      <color>FF7AD9</color>
+    </text>
+
+    <datetime name="md_releasedate, md_lastplayed">
+      <color>FF7AD9</color>
+    </datetime>
+
+    <textlist name="gamelist">
+      <primaryColor>FF7AD9</primaryColor>
+      <secondaryColor>FF7AD9</secondaryColor>
+      <selectedColor>FF7AD9</selectedColor>
+    </textlist>
+
+</view>
+
+<view name="system">
+
+    <text name="logoText">
+      <color>FF7AD9</color>
+    </text>
+
+    <text name="systemInfo">
+      <color>FF7AD9</color>
+    </text>
+
+</view>
+
+<view name="screen">
+
+    <text name="clock">
+      <color>FF7AD9</color>
+    </text>
+
+</view>
+
+</theme>

@@ -13,15 +13,15 @@
   </view>
   <view name="basic,detailed">
 
-<text name="system_name">
+<text name="system_name_short">
   <size>0.4 0.05</size>
-  <fontSize>0.04</fontSize>
+  <fontSize>0.095</fontSize>
   <zIndex>5</zIndex>
 </text>
 
     <textlist name="gamelist">
-<pos>0.515 0.19</pos>
-<size>0.47 0.48</size>
+<pos>0.515 0.06</pos>
+<size>0.47 0.58</size>
       <alignment>left</alignment>
       <zIndex>5</zIndex>
     </textlist>
@@ -69,6 +69,10 @@
     </text>
     <text name="md_genre">
       <pos>0.316 0.36</pos>
+    </text>
+
+    <text name="md_description">
+      <fontSize>0.042</fontSize>
     </text>
     <datetime name="md_releasedate">
       <origin>0.5 0.5</origin>

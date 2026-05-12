@@ -1,0 +1,90 @@
+<theme>
+
+<view name="menu">
+
+    <menuText name="menutitle">
+      <color>FFB347</color>
+    </menuText>
+
+    <menuText name="menufooter">
+      <color>FFB347</color>
+    </menuText>
+
+    <menuText name="menutext">
+      <color>FFB347</color>
+      <selectedColor>FFB347</selectedColor>
+    </menuText>
+
+    <menuTextSmall name="menutextsmall">
+      <color>FFB347</color>
+    </menuTextSmall>
+
+</view>
+
+<view name="basic, detailed, grid">
+
+    <text name="system_name">
+      <color>FFB347</color>
+    </text>
+
+    <text name="md_description">
+      <color>FFB347</color>
+    </text>
+
+    <text name="md_name">
+      <color>FFB347</color>
+    </text>
+
+    <text name="md_publisher">
+      <color>FFB347</color>
+    </text>
+
+    <text name="md_developer">
+      <color>FFB347</color>
+    </text>
+
+    <text name="md_players">
+      <color>FFB347</color>
+    </text>
+
+    <text name="md_genre">
+      <color>FFB347</color>
+    </text>
+
+    <text name="md_lbl_genre, md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_lbl_releasedate">
+      <color>FFB347</color>
+    </text>
+
+    <datetime name="md_releasedate, md_lastplayed">
+      <color>FFB347</color>
+    </datetime>
+
+    <textlist name="gamelist">
+      <primaryColor>FFB347</primaryColor>
+      <secondaryColor>FFB347</secondaryColor>
+      <selectedColor>FFB347</selectedColor>
+    </textlist>
+
+</view>
+
+<view name="system">
+
+    <text name="logoText">
+      <color>FFB347</color>
+    </text>
+
+    <text name="systemInfo">
+      <color>FFB347</color>
+    </text>
+
+</view>
+
+<view name="screen">
+
+    <text name="clock">
+      <color>FFB347</color>
+    </text>
+
+</view>
+
+</theme>

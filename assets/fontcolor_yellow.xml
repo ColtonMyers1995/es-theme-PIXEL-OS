@@ -1,0 +1,90 @@
+<theme>
+
+<view name="menu">
+
+    <menuText name="menutitle">
+      <color>FFE96A</color>
+    </menuText>
+
+    <menuText name="menufooter">
+      <color>FFE96A</color>
+    </menuText>
+
+    <menuText name="menutext">
+      <color>FFE96A</color>
+      <selectedColor>FFE96A</selectedColor>
+    </menuText>
+
+    <menuTextSmall name="menutextsmall">
+      <color>FFE96A</color>
+    </menuTextSmall>
+
+</view>
+
+<view name="basic, detailed, grid">
+
+    <text name="system_name">
+      <color>FFE96A</color>
+    </text>
+
+    <text name="md_description">
+      <color>FFE96A</color>
+    </text>
+
+    <text name="md_name">
+      <color>FFE96A</color>
+    </text>
+
+    <text name="md_publisher">
+      <color>FFE96A</color>
+    </text>
+
+    <text name="md_developer">
+      <color>FFE96A</color>
+    </text>
+
+    <text name="md_players">
+      <color>FFE96A</color>
+    </text>
+
+    <text name="md_genre">
+      <color>FFE96A</color>
+    </text>
+
+    <text name="md_lbl_genre, md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_lbl_releasedate">
+      <color>FFE96A</color>
+    </text>
+
+    <datetime name="md_releasedate, md_lastplayed">
+      <color>FFE96A</color>
+    </datetime>
+
+    <textlist name="gamelist">
+      <primaryColor>FFE96A</primaryColor>
+      <secondaryColor>FFE96A</secondaryColor>
+      <selectedColor>FFE96A</selectedColor>
+    </textlist>
+
+</view>
+
+<view name="system">
+
+    <text name="logoText">
+      <color>FFE96A</color>
+    </text>
+
+    <text name="systemInfo">
+      <color>FFE96A</color>
+    </text>
+
+</view>
+
+<view name="screen">
+
+    <text name="clock">
+      <color>FFE96A</color>
+    </text>
+
+</view>
+
+</theme>

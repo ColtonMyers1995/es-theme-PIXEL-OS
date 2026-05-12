@@ -177,7 +177,7 @@
   <pos>0.60 0.67</pos>
   <size>0.35 0.20</size>
   <color>ffffff</color>
-  <fontSize>0.025</fontSize>
+  <fontSize>0.042</fontSize>
   <fontPath>./assets/SST.ttf</fontPath>
 </text>
 	
@@ -317,7 +317,7 @@
       <size>1 0.06</size>
       <alignment>center</alignment>
       <fontPath>./assets/SST.ttf</fontPath>
-      <fontSize>0.045</fontSize>
+      <fontSize>0.055</fontSize>
       <color>ffffff</color>
       <backgroundColor>00000000</backgroundColor>
     </text>
@@ -334,6 +334,9 @@
 <selectionName>Selection Color</selectionName>
 <BoostName>Minimal System View</BoostName>
 <portrayTypeName>Icon Layout</portrayTypeName>
+<clockPosName>Clock Position</clockPosName>
+<fontSubsetName>Theme Font</fontSubsetName>
+<fontColorName>Font Color</fontColorName>
 </variables>
 
 
@@ -400,6 +403,42 @@
 <include name="Pink">./assets/selection_pink.xml</include>
 </subset>
 
+<subset name="fontcolor" displayName="${fontColorName}">
+<include name="White"/>
+<include name="Black">./assets/fontcolor_black.xml</include>
+<include name="Purple">./assets/fontcolor_purple.xml</include>
+<include name="Blue">./assets/fontcolor_blue.xml</include>
+<include name="Red">./assets/fontcolor_red.xml</include>
+<include name="Green">./assets/fontcolor_green.xml</include>
+<include name="Yellow">./assets/fontcolor_yellow.xml</include>
+<include name="Orange">./assets/fontcolor_orange.xml</include>
+<include name="Pink">./assets/fontcolor_pink.xml</include>
+</subset>
+
+<subset name="themefont" displayName="${fontSubsetName}">
+<include name="Basic"/>
+<include name="1989">./assets/font_1989.xml</include>
+<include name="Ancient">./assets/font_ancent.xml</include>
+<include name="Big">./assets/font_big.xml</include>
+<include name="Bold">./assets/font_bold.xml</include>
+<include name="Bubble">./assets/font_bubble.xml</include>
+<include name="Castle">./assets/font_castle.xml</include>
+<include name="Evil">./assets/font_evil.xml</include>
+<include name="Fancy">./assets/font_Fancy.xml</include>
+<include name="Fun">./assets/font_fun.xml</include>
+<include name="Gothic">./assets/font_Gothic.xml</include>
+<include name="Jagged">./assets/font_jagged.xml</include>
+<include name="Old">./assets/font_Old.xml</include>
+<include name="Retro">./assets/font_retro.xml</include>
+<include name="Scribbles">./assets/font_scribbles.xml</include>
+<include name="Sharp">./assets/font_Sharp.xml</include>
+<include name="Simple">./assets/font_simple.xml</include>
+<include name="Small">./assets/font_Small.xml</include>
+<include name="Soft">./assets/font_Soft.xml</include>
+<include name="Stencil">./assets/font_stencil.xml</include>
+<include name="Thick">./assets/font_thick.xml</include>
+</subset>
+
 <subset name="menuimages" displayName="${menuImagesName}">
 <include name="On"/>
 <include name="Off">./menuimages_on.xml</include>
@@ -408,6 +447,11 @@
 <subset name="Boost" displayName="${BoostName}">
 <include name="On">./assets/cpumode_on.xml</include>
 <include name="Off"/>
+</subset>
+
+<subset name="clockpos" displayName="${clockPosName}">
+<include name="Right"/>
+<include name="Left">./assets/clock_left.xml</include>
 </subset>
 
 <view name="basic, detailed, video, grid">

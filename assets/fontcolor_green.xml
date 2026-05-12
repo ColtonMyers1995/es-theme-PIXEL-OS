@@ -1,0 +1,90 @@
+<theme>
+
+<view name="menu">
+
+    <menuText name="menutitle">
+      <color>6DFF8C</color>
+    </menuText>
+
+    <menuText name="menufooter">
+      <color>6DFF8C</color>
+    </menuText>
+
+    <menuText name="menutext">
+      <color>6DFF8C</color>
+      <selectedColor>6DFF8C</selectedColor>
+    </menuText>
+
+    <menuTextSmall name="menutextsmall">
+      <color>6DFF8C</color>
+    </menuTextSmall>
+
+</view>
+
+<view name="basic, detailed, grid">
+
+    <text name="system_name">
+      <color>6DFF8C</color>
+    </text>
+
+    <text name="md_description">
+      <color>6DFF8C</color>
+    </text>
+
+    <text name="md_name">
+      <color>6DFF8C</color>
+    </text>
+
+    <text name="md_publisher">
+      <color>6DFF8C</color>
+    </text>
+
+    <text name="md_developer">
+      <color>6DFF8C</color>
+    </text>
+
+    <text name="md_players">
+      <color>6DFF8C</color>
+    </text>
+
+    <text name="md_genre">
+      <color>6DFF8C</color>
+    </text>
+
+    <text name="md_lbl_genre, md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_lbl_releasedate">
+      <color>6DFF8C</color>
+    </text>
+
+    <datetime name="md_releasedate, md_lastplayed">
+      <color>6DFF8C</color>
+    </datetime>
+
+    <textlist name="gamelist">
+      <primaryColor>6DFF8C</primaryColor>
+      <secondaryColor>6DFF8C</secondaryColor>
+      <selectedColor>6DFF8C</selectedColor>
+    </textlist>
+
+</view>
+
+<view name="system">
+
+    <text name="logoText">
+      <color>6DFF8C</color>
+    </text>
+
+    <text name="systemInfo">
+      <color>6DFF8C</color>
+    </text>
+
+</view>
+
+<view name="screen">
+
+    <text name="clock">
+      <color>6DFF8C</color>
+    </text>
+
+</view>
+
+</theme>

@@ -1,0 +1,51 @@
+<theme>
+
+<view name="menu">
+    <menuText name="menutitle">
+      <fontPath>./assets/Sharp.ttf</fontPath>
+    </menuText>
+
+    <menuText name="menufooter">
+      <fontPath>./assets/Sharp.ttf</fontPath>
+    </menuText>
+
+    <menuText name="menutext">
+      <fontPath>./assets/Sharp.ttf</fontPath>
+    </menuText>
+
+    <menuTextSmall name="menutextsmall">
+      <fontPath>./assets/Sharp.ttf</fontPath>
+    </menuTextSmall>
+</view>
+
+<view name="basic, detailed, grid">
+    <text name="system_name">
+      <fontPath>./assets/Sharp.ttf</fontPath>
+    </text>
+
+    <text name="md_description">
+      <fontPath>./assets/Sharp.ttf</fontPath>
+    </text>
+
+    <textlist name="gamelist">
+      <fontPath>./assets/Sharp.ttf</fontPath>
+    </textlist>
+</view>
+
+<view name="system">
+    <text name="logoText">
+      <fontPath>./assets/Sharp.ttf</fontPath>
+    </text>
+
+    <text name="systemInfo">
+      <fontPath>./assets/Sharp.ttf</fontPath>
+    </text>
+</view>
+
+<view name="screen">
+    <text name="clock">
+      <fontPath>./assets/Sharp.ttf</fontPath>
+    </text>
+</view>
+
+</theme>

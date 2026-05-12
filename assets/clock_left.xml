@@ -1,0 +1,15 @@
+﻿<theme>
+
+  <view name="screen">
+
+    <text name="clock">
+      <origin>0 0</origin>
+      <pos>-0.027 -0.008</pos>
+      <size>0.15 0.03</size>
+      <horizontalAlignment>left</horizontalAlignment>
+      <zIndex>999</zIndex>
+    </text>
+
+  </view>
+
+</theme>

@@ -1,0 +1,90 @@
+<theme>
+
+<view name="menu">
+
+    <menuText name="menutitle">
+      <color>5AB0FF</color>
+    </menuText>
+
+    <menuText name="menufooter">
+      <color>5AB0FF</color>
+    </menuText>
+
+    <menuText name="menutext">
+      <color>5AB0FF</color>
+      <selectedColor>5AB0FF</selectedColor>
+    </menuText>
+
+    <menuTextSmall name="menutextsmall">
+      <color>5AB0FF</color>
+    </menuTextSmall>
+
+</view>
+
+<view name="basic, detailed, grid">
+
+    <text name="system_name">
+      <color>5AB0FF</color>
+    </text>
+
+    <text name="md_description">
+      <color>5AB0FF</color>
+    </text>
+
+    <text name="md_name">
+      <color>5AB0FF</color>
+    </text>
+
+    <text name="md_publisher">
+      <color>5AB0FF</color>
+    </text>
+
+    <text name="md_developer">
+      <color>5AB0FF</color>
+    </text>
+
+    <text name="md_players">
+      <color>5AB0FF</color>
+    </text>
+
+    <text name="md_genre">
+      <color>5AB0FF</color>
+    </text>
+
+    <text name="md_lbl_genre, md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_lbl_releasedate">
+      <color>5AB0FF</color>
+    </text>
+
+    <datetime name="md_releasedate, md_lastplayed">
+      <color>5AB0FF</color>
+    </datetime>
+
+    <textlist name="gamelist">
+      <primaryColor>5AB0FF</primaryColor>
+      <secondaryColor>5AB0FF</secondaryColor>
+      <selectedColor>5AB0FF</selectedColor>
+    </textlist>
+
+</view>
+
+<view name="system">
+
+    <text name="logoText">
+      <color>5AB0FF</color>
+    </text>
+
+    <text name="systemInfo">
+      <color>5AB0FF</color>
+    </text>
+
+</view>
+
+<view name="screen">
+
+    <text name="clock">
+      <color>5AB0FF</color>
+    </text>
+
+</view>
+
+</theme>

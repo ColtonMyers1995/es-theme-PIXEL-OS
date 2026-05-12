@@ -1,0 +1,51 @@
+<theme>
+
+<view name="menu">
+    <menuText name="menutitle">
+      <fontPath>./assets/jagged.ttf</fontPath>
+    </menuText>
+
+    <menuText name="menufooter">
+      <fontPath>./assets/jagged.ttf</fontPath>
+    </menuText>
+
+    <menuText name="menutext">
+      <fontPath>./assets/jagged.ttf</fontPath>
+    </menuText>
+
+    <menuTextSmall name="menutextsmall">
+      <fontPath>./assets/jagged.ttf</fontPath>
+    </menuTextSmall>
+</view>
+
+<view name="basic, detailed, grid">
+    <text name="system_name">
+      <fontPath>./assets/jagged.ttf</fontPath>
+    </text>
+
+    <text name="md_description">
+      <fontPath>./assets/jagged.ttf</fontPath>
+    </text>
+
+    <textlist name="gamelist">
+      <fontPath>./assets/jagged.ttf</fontPath>
+    </textlist>
+</view>
+
+<view name="system">
+    <text name="logoText">
+      <fontPath>./assets/jagged.ttf</fontPath>
+    </text>
+
+    <text name="systemInfo">
+      <fontPath>./assets/jagged.ttf</fontPath>
+    </text>
+</view>
+
+<view name="screen">
+    <text name="clock">
+      <fontPath>./assets/jagged.ttf</fontPath>
+    </text>
+</view>
+
+</theme>
