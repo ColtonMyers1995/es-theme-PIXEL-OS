@@ -72,6 +72,7 @@
       <zIndex>5</zIndex>
     </text>
     <text name="md_publisher">
+      <fontSize>0.026</fontSize>
       <pos>0.316 0.283</pos>
     </text>
     <text name="md_developer,md_players">
@@ -84,6 +85,7 @@
       <pos>0.15 0.36</pos>
     </text>
     <text name="md_genre">
+      <fontSize>0.026</fontSize>
       <pos>0.316 0.36</pos>
     </text>
 
@@ -92,6 +94,7 @@
       <fontSize>0.042</fontSize>
     </text>
     <datetime name="md_releasedate">
+      <fontSize>0.026</fontSize>
       <origin>0.5 0.5</origin>
       <pos>0.316 0.32</pos>
       <size>0.6 0.6</size>
