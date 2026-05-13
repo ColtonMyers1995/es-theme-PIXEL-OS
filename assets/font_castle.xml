@@ -30,6 +30,27 @@
     <textlist name="gamelist">
       <fontPath>./assets/castle.ttf</fontPath>
     </textlist>
+
+    <text name="md_publisher">
+      <fontPath>./assets/castle.ttf</fontPath>
+    </text>
+
+    <text name="md_developer">
+      <fontPath>./assets/castle.ttf</fontPath>
+    </text>
+
+    <text name="md_players">
+      <fontPath>./assets/castle.ttf</fontPath>
+    </text>
+
+    <text name="md_genre">
+      <fontPath>./assets/castle.ttf</fontPath>
+    </text>
+
+    <datetime name="md_releasedate">
+      <fontPath>./assets/castle.ttf</fontPath>
+    </datetime>
+
 </view>
 
 <view name="system">

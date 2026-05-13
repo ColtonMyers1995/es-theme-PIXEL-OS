@@ -30,6 +30,27 @@
     <textlist name="gamelist">
       <fontPath>./assets/stencil.ttf</fontPath>
     </textlist>
+
+    <text name="md_publisher">
+      <fontPath>./assets/stencil.ttf</fontPath>
+    </text>
+
+    <text name="md_developer">
+      <fontPath>./assets/stencil.ttf</fontPath>
+    </text>
+
+    <text name="md_players">
+      <fontPath>./assets/stencil.ttf</fontPath>
+    </text>
+
+    <text name="md_genre">
+      <fontPath>./assets/stencil.ttf</fontPath>
+    </text>
+
+    <datetime name="md_releasedate">
+      <fontPath>./assets/stencil.ttf</fontPath>
+    </datetime>
+
 </view>
 
 <view name="system">

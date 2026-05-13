@@ -30,6 +30,27 @@
     <textlist name="gamelist">
       <fontPath>./assets/fun.ttf</fontPath>
     </textlist>
+
+    <text name="md_publisher">
+      <fontPath>./assets/fun.ttf</fontPath>
+    </text>
+
+    <text name="md_developer">
+      <fontPath>./assets/fun.ttf</fontPath>
+    </text>
+
+    <text name="md_players">
+      <fontPath>./assets/fun.ttf</fontPath>
+    </text>
+
+    <text name="md_genre">
+      <fontPath>./assets/fun.ttf</fontPath>
+    </text>
+
+    <datetime name="md_releasedate">
+      <fontPath>./assets/fun.ttf</fontPath>
+    </datetime>
+
 </view>
 
 <view name="system">
