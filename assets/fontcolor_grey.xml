@@ -1,0 +1,108 @@
+<theme>
+
+<view name="menu">
+
+    <menuText name="menutitle">
+      <color>303030</color>
+    </menuText>
+
+    <menuText name="menufooter">
+      <color>303030</color>
+    </menuText>
+
+    <menuText name="menutext">
+      <color>606060</color>
+      <selectedColor>606060</selectedColor>
+    </menuText>
+
+    <menuTextSmall name="menutextsmall">
+      <color>606060</color>
+    </menuTextSmall>
+
+</view>
+
+<view name="basic, detailed">
+
+    <text name="system_name">
+      <color>303030</color>
+    </text>
+
+    <text name="md_description">
+      <color>303030</color>
+    </text>
+
+    <text name="md_name">
+      <color>606060</color>
+    </text>
+
+    <text name="md_publisher">
+      <color>303030</color>
+    </text>
+
+    <text name="md_developer">
+      <color>303030</color>
+    </text>
+
+    <text name="md_players">
+      <color>303030</color>
+    </text>
+
+    <text name="md_genre">
+      <color>303030</color>
+    </text>
+
+    <text name="md_lbl_genre, md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_lbl_playcount, md_lbl_releasedate">
+      <color>303030</color>
+    </text>
+
+    <datetime name="md_releasedate">
+      <color>303030</color>
+    </datetime>
+
+    <textlist name="gamelist">
+      <primaryColor>606060</primaryColor>
+      <secondaryColor>606060</secondaryColor>
+      <selectedColor>606060</selectedColor>
+    </textlist>
+
+
+    <text name="md_lbl_lastplayed">
+      <visible>false</visible>
+    </text>
+
+    <datetime name="md_lastplayed">
+      <visible>false</visible>
+    </datetime>
+
+
+    <text name="md_lbl_lastplayed">
+      <visible>false</visible>
+    </text>
+
+    <datetime name="md_lastplayed">
+      <visible>false</visible>
+    </datetime>
+
+</view>
+
+<view name="system">
+
+    <text name="logoText">
+      <color>303030</color>
+    </text>
+
+    <text name="systemInfo">
+      <color>606060</color>
+    </text>
+
+</view>
+
+<view name="screen">
+
+    <text name="clock">
+      <color>303030</color>
+    </text>
+
+</view>
+
+</theme>

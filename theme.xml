@@ -449,7 +449,8 @@
 
 <subset name="fontcolor" displayName="${fontColorName}">
 <include name="White">./assets/fontcolor_white.xml</include>
-<include name="Black">./assets/fontcolor_black.xml</include>
+<include name="Black">./assets/fontcolor_grey.xml</include>
+<include name="Grey">./assets/fontcolor_black.xml</include>
 <include name="Purple">./assets/fontcolor_purple.xml</include>
 <include name="Blue">./assets/fontcolor_blue.xml</include>
 <include name="Red">./assets/fontcolor_red.xml</include>
