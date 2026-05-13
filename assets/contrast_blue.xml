@@ -3,5 +3,9 @@
         <image name="staticBackground">
             <color>808080FF</color>
         </image>
+
+        <image name="forcedBG">
+            <color>808080FF</color>
+        </image>
     </view>
 </theme>

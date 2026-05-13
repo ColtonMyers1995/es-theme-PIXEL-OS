@@ -74,6 +74,12 @@
 
     <view name="system, basic, detailed, grid">
   
+    <text name="clock">
+      <fontPath>./assets/SST.ttf</fontPath>
+      <fontSize>0.022</fontSize>
+    </text>
+
+  
       <image name="staticBackground">
        <size>1 1</size>
        <pos>0 0</pos>
@@ -144,6 +150,11 @@
       <zIndex>1</zIndex>
       <color>00000000</color>
     </image>
+
+    <image name="forcedBG">
+      <color>10667f</color>
+    </image>
+
 	
     <text name="system_name" extra="true">
       <text>${system.fullName}</text>
@@ -375,14 +386,14 @@
 </subset>
 
 <subset name="background" displayName="${backgroundSubsetName}">
-<include name="portal">./assets/bg2.xml</include>
+<include name="cityscape">./assets/bg8.xml</include>
 <include name="landscape">./assets/bg4.xml</include>
+<include name="portal">./assets/bg2.xml</include>
 <include name="disc">./assets/bg1.xml</include>
 <include name="desktop">./assets/bg3.xml</include>
 <include name="shelves">./assets/bg5.xml</include>
 <include name="terminal">./assets/bg6.xml</include>
 <include name="pixel os">./assets/bg7.xml</include>
-<include name="cityscape">./assets/bg8.xml</include>
 <include name="planets">./assets/bg9.xml</include>
 <include name="japan sky">./assets/bg10.xml</include>
 <include name="monster">./assets/bg11.xml</include>
@@ -390,9 +401,9 @@
 
 
 <subset name="imagetype" displayName="${imageTypeName}">
+<include name="Console Logos"/>
 <include name="Console Icons">./imagetype_logos.xml</include>
 <include name="Console Images">./imagetype_consoles.xml</include>
-<include name="Console Logos"/>
 </subset>
 
 <subset name="portraytype" displayName="${portrayTypeName}">
@@ -402,28 +413,28 @@
 </subset>
 
 <subset name="gamelistmode" displayName="${gamelistModeName}">
-<include name="Full Terminal">./assets/gamelist_fullt.xml</include>
 <include name="Full Themed">./assets/gamelist_full.xml</include>
+<include name="Full Terminal">./assets/gamelist_fullt.xml</include>
 <include name="Left"/>
 <include name="Center">./assets/gamelist_center.xml</include>
 <include name="Right">./assets/gamelist_right.xml</include>
 </subset>
 
 <subset name="color" displayName="${contrastName}">
-<include name="High">./assets/contrast_bright.xml</include>
-<include name="None">./assets/contrast_blue.xml</include>
-<include name="Purple">./assets/contrast_purple.xml</include>
 <include name="Blue"/>
+<include name="Purple">./assets/contrast_purple.xml</include>
 <include name="Red">./assets/contrast_red.xml</include>
 <include name="Green">./assets/contrast_green.xml</include>
 <include name="Yellow">./assets/contrast_yellow.xml</include>
 <include name="Orange">./assets/contrast_orange.xml</include>
 <include name="Pink">./assets/contrast_pink.xml</include>
+<include name="High">./assets/contrast_bright.xml</include>
+<include name="None">./assets/contrast_blue.xml</include>
 </subset>
 
 <subset name="selection" displayName="${selectionName}">
-<include name="Purple">./assets/selection_purple.xml</include>
 <include name="Blue"/>
+<include name="Purple">./assets/selection_purple.xml</include>
 <include name="Red">./assets/selection_red.xml</include>
 <include name="Green">./assets/selection_green.xml</include>
 <include name="Yellow">./assets/selection_yellow.xml</include>
@@ -473,13 +484,13 @@
 </subset>
 
 <subset name="Boost" displayName="${BoostName}">
-<include name="On">./assets/cpumode_on.xml</include>
 <include name="Off"/>
+<include name="On">./assets/cpumode_on.xml</include>
 </subset>
 
 <subset name="clockpos" displayName="${clockPosName}">
-<include name="Right"/>
 <include name="Left">./assets/clock_left.xml</include>
+<include name="Right"/>
 </subset>
 
 <view name="basic, detailed, video, grid">

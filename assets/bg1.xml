@@ -27,12 +27,21 @@
       <maxLogoCount>5</maxLogoCount>
     </carousel>
   <text name="systemInfo">
-      <pos>0.3 0</pos>
-      <size>0.4 0.2</size>
+      <pos>0.15 0.05</pos>
+      <size>0.4 0.12</size>
+      <fontSize>0.032</fontSize>
     </text>
   </view>
   <view></view>
   <view name="basic, detailed, grid">
+    <image name="forcedBG" extra="true">
+      <size>1 1</size>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <path>./bg1.png</path>
+      <zIndex>-5</zIndex>
+    </image>
+
     <text name="system_name">
      <text>${system.fullName}</text>
      <pos>0.03 0.08</pos>
