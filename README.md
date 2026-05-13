@@ -66,7 +66,7 @@ This theme was inspired by the efficiency of:
 
 
 
-\* This project uses that concept as a benchmark, targeting 8MB with 4x more assets
+\* This project uses that concept as a benchmark, targeting 10MB with 5x more assets
 
 
 
