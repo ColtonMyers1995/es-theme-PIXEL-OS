@@ -157,7 +157,7 @@ Reduced UI mode focused on artwork and navigation clarity.
 
 ---
 
-## Typography Variants
+## Typography Variants (3 of 16)
 
 ### Font Variant 1
 
@@ -179,19 +179,19 @@ Reduced UI mode focused on artwork and navigation clarity.
 
 ## System Presentation Styles
 
-### Icon Style
+### Themed/Forced Style
 
 <img width="640" height="480" alt="Logo Iconx1" src="https://github.com/user-attachments/assets/0db95ddf-18ea-41fe-a062-25ca028c4312" />
 
 ---
 
-### Logo Style
+### Bigger Image Style
 
 <img width="640" height="480" alt="Logo Themed" src="https://github.com/user-attachments/assets/bb5542b3-5437-4f3c-b778-58564d4e4e01" />
 
 ---
 
-## Internal Themes
+## Internal Themes (3 of 14)
 
 ### PIXEL OS Internal Theme
 
