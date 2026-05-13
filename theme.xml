@@ -277,7 +277,7 @@
     </text>
 	
     <text name="md_name">
-      <color>ffffffff</color>
+      <color>909090</color>
       <pos>0.051 0.16</pos>
       <size>0.50 0.07</size>
       <alignment>center</alignment>
@@ -432,7 +432,7 @@
 </subset>
 
 <subset name="fontcolor" displayName="${fontColorName}">
-<include name="White"/>
+<include name="White">./assets/fontcolor_white.xml</include>
 <include name="Black">./assets/fontcolor_black.xml</include>
 <include name="Purple">./assets/fontcolor_purple.xml</include>
 <include name="Blue">./assets/fontcolor_blue.xml</include>

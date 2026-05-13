@@ -3,20 +3,20 @@
 <view name="menu">
 
     <menuText name="menutitle">
-      <color>303030</color>
+      <color>B0B0B0</color>
     </menuText>
 
     <menuText name="menufooter">
-      <color>303030</color>
+      <color>B0B0B0</color>
     </menuText>
 
     <menuText name="menutext">
-      <color>606060</color>
-      <selectedColor>606060</selectedColor>
+      <color>FFFFFF</color>
+      <selectedColor>FFFFFF</selectedColor>
     </menuText>
 
     <menuTextSmall name="menutextsmall">
-      <color>606060</color>
+      <color>FFFFFF</color>
     </menuTextSmall>
 
 </view>
@@ -24,56 +24,46 @@
 <view name="basic, detailed">
 
     <text name="system_name">
-      <color>303030</color>
+      <color>B0B0B0</color>
     </text>
 
     <text name="md_description">
-      <color>303030</color>
+      <color>B0B0B0</color>
     </text>
 
     <text name="md_name">
-      <color>606060</color>
+      <color>B0B0B0</color>
     </text>
 
     <text name="md_publisher">
-      <color>303030</color>
+      <color>B0B0B0</color>
     </text>
 
     <text name="md_developer">
-      <color>303030</color>
+      <color>B0B0B0</color>
     </text>
 
     <text name="md_players">
-      <color>303030</color>
+      <color>B0B0B0</color>
     </text>
 
     <text name="md_genre">
-      <color>303030</color>
+      <color>B0B0B0</color>
     </text>
 
     <text name="md_lbl_genre, md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_lbl_playcount, md_lbl_releasedate">
-      <color>303030</color>
+      <color>B0B0B0</color>
     </text>
 
     <datetime name="md_releasedate">
-      <color>303030</color>
+      <color>B0B0B0</color>
     </datetime>
 
     <textlist name="gamelist">
-      <primaryColor>606060</primaryColor>
-      <secondaryColor>606060</secondaryColor>
-      <selectedColor>606060</selectedColor>
+      <primaryColor>FFFFFF</primaryColor>
+      <secondaryColor>FFFFFF</secondaryColor>
+      <selectedColor>FFFFFF</selectedColor>
     </textlist>
-
-
-    <text name="md_lbl_lastplayed">
-      <visible>false</visible>
-    </text>
-
-    <datetime name="md_lastplayed">
-      <visible>false</visible>
-    </datetime>
-
 
     <text name="md_lbl_lastplayed">
       <visible>false</visible>
@@ -88,11 +78,11 @@
 <view name="system">
 
     <text name="logoText">
-      <color>303030</color>
+      <color>B0B0B0</color>
     </text>
 
     <text name="systemInfo">
-      <color>606060</color>
+      <color>FFFFFF</color>
     </text>
 
 </view>
@@ -100,7 +90,7 @@
 <view name="screen">
 
     <text name="clock">
-      <color>303030</color>
+      <color>B0B0B0</color>
     </text>
 
 </view>
