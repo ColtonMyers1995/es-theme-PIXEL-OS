@@ -14,7 +14,20 @@
       <hotkeyColor>FFA0A0C0</hotkeyColor>
     </controllerActivity>
 	
-  </view>
+  
+    <text name="md_publisher, md_developer, md_players, md_genre">
+      <visible>false</visible>
+      <pos>0 0</pos>
+      <size>0 0</size>
+    </text>
+
+    <datetime name="md_releasedate">
+      <visible>false</visible>
+      <pos>0 0</pos>
+      <size>0 0</size>
+    </datetime>
+
+</view>
   
   <view name="menu">
 
@@ -28,7 +41,7 @@
     <menuText name="menutitle">
       <fontPath>./assets/SST.ttf</fontPath>
       <fontSize>0.044</fontSize>
-      <color>ffffff</color>
+      <color>909090</color>
     </menuText>
 	
     <menuText name="menufooter">
@@ -102,7 +115,7 @@
     <text name="logoText">
       <fontPath>./assets/SST.ttf</fontPath>
       <fontSize>0.092</fontSize>
-      <color>FFFFFFFF</color>
+      <color>909090FF</color>
       <reflexion>0 0</reflexion>
       <reflexionOnFrame>false</reflexionOnFrame>
     </text>
@@ -137,7 +150,7 @@
       <forceUppercase>0</forceUppercase>
       <size>0.5 0.025</size>
       <pos>0.02 0.025</pos>
-      <color>ffffff</color>
+      <color>909090</color>
       <fontPath>./assets/SST.ttf</fontPath>
       <fontSize>0.04</fontSize>
       <zIndex>3</zIndex>
@@ -176,7 +189,7 @@
 <text name="md_description">
   <pos>0.60 0.67</pos>
   <size>0.35 0.20</size>
-  <color>ffffff</color>
+  <color>909090</color>
   <fontSize>0.042</fontSize>
   <fontPath>./assets/SST.ttf</fontPath>
 </text>
@@ -212,6 +225,20 @@
       <selectorOffsetY>-0.01</selectorOffsetY>
       <selectorHeight>0.0675</selectorHeight>
     </textlist>
+
+
+    <text name="md_publisher, md_developer, md_players, md_genre, md_lbl_genre, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate">
+      <visible>false</visible>
+      <pos>0 0</pos>
+      <size>0 0</size>
+    </text>
+
+    <datetime name="md_releasedate">
+      <visible>false</visible>
+      <pos>0 0</pos>
+      <size>0 0</size>
+    </datetime>
+
 
 <rating name="md_rating">
   <origin>0 1</origin>
@@ -309,6 +336,7 @@
 
 	
     <text name="systemInfo">
+      <color>909090</color>
       <scrollSound>./sounds/scroll.wav</scrollSound>
       <selectSound>./sounds/select.wav</selectSound>
       <backSound>./sounds/back.wav</backSound>
@@ -318,7 +346,7 @@
       <alignment>center</alignment>
       <fontPath>./assets/SST.ttf</fontPath>
       <fontSize>0.055</fontSize>
-      <color>ffffff</color>
+      <color>909090</color>
       <backgroundColor>00000000</backgroundColor>
     </text>
 	

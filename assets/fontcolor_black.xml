@@ -3,11 +3,11 @@
 <view name="menu">
 
     <menuText name="menutitle">
-      <color>303030</color>
+      <color>606060</color>
     </menuText>
 
     <menuText name="menufooter">
-      <color>303030</color>
+      <color>606060</color>
     </menuText>
 
     <menuText name="menutext">
@@ -21,14 +21,14 @@
 
 </view>
 
-<view name="basic, detailed, grid">
+<view name="basic, detailed">
 
     <text name="system_name">
-      <color>303030</color>
+      <color>606060</color>
     </text>
 
     <text name="md_description">
-      <color>303030</color>
+      <color>606060</color>
     </text>
 
     <text name="md_name">
@@ -36,27 +36,27 @@
     </text>
 
     <text name="md_publisher">
-      <color>303030</color>
+      <color>606060</color>
     </text>
 
     <text name="md_developer">
-      <color>303030</color>
+      <color>606060</color>
     </text>
 
     <text name="md_players">
-      <color>303030</color>
+      <color>606060</color>
     </text>
 
     <text name="md_genre">
-      <color>303030</color>
+      <color>606060</color>
     </text>
 
-    <text name="md_lbl_genre, md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_lbl_releasedate">
-      <color>303030</color>
+    <text name="md_lbl_genre, md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_lbl_playcount, md_lbl_releasedate">
+      <color>606060</color>
     </text>
 
-    <datetime name="md_releasedate, md_lastplayed">
-      <color>303030</color>
+    <datetime name="md_releasedate">
+      <color>606060</color>
     </datetime>
 
     <textlist name="gamelist">
@@ -65,12 +65,30 @@
       <selectedColor>303030</selectedColor>
     </textlist>
 
+
+    <text name="md_lbl_lastplayed">
+      <visible>false</visible>
+    </text>
+
+    <datetime name="md_lastplayed">
+      <visible>false</visible>
+    </datetime>
+
+
+    <text name="md_lbl_lastplayed">
+      <visible>false</visible>
+    </text>
+
+    <datetime name="md_lastplayed">
+      <visible>false</visible>
+    </datetime>
+
 </view>
 
 <view name="system">
 
     <text name="logoText">
-      <color>303030</color>
+      <color>606060</color>
     </text>
 
     <text name="systemInfo">
@@ -82,7 +100,7 @@
 <view name="screen">
 
     <text name="clock">
-      <color>303030</color>
+      <color>606060</color>
     </text>
 
 </view>

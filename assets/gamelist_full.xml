@@ -13,9 +13,9 @@
   </view>
   <view name="basic,detailed">
 
-<text name="system_name_short">
-  <size>0.4 0.05</size>
-  <fontSize>0.095</fontSize>
+<text name="system_name">
+  <size>0.40 0.05</size>
+  <fontSize>0.072</fontSize>
   <zIndex>5</zIndex>
 </text>
 
@@ -29,7 +29,7 @@
       <origin>0 0</origin>
       <pos>0 0</pos>
       <size>1 1</size>
-      <path>./inc/images/bgd1.png</path>
+      <path>./inc/images/bg.detail.png</path>
       <zIndex>3</zIndex>
     </image>
     <image name="md_image">
@@ -47,6 +47,21 @@
 <unfilledPath>./inc/images/star_empty.png</unfilledPath>
       <zIndex>6</zIndex>
     </rating>
+
+    
+    <text name="md_developer">
+      <visible>false</visible>
+      <pos>0 0</pos>
+      <size>0 0</size>
+    </text>
+
+    <text name="md_publisher,md_players,md_genre">
+      <visible>true</visible>
+    </text>
+
+    <datetime name="md_releasedate">
+      <visible>true</visible>
+    </datetime>
 
     <text name="md_publisher,md_developer,md_players,md_genre">
       <origin>0.5 0.5</origin>

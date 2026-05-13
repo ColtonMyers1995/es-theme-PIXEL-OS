@@ -9,8 +9,9 @@
 
         </text>
         <text name="system_name">
-            <pos>0.25 0.085</pos>
-            <size>0.50 0.025</size>
+            <pos>0.125 0.085</pos>
+            <size>0.75 0.025</size>
+            <alignment>center</alignment>
         </text>
         <textlist name="gamelist">
         <pos>0.125 0.170</pos>
@@ -54,6 +55,19 @@
   <zIndex>6</zIndex>
 </rating>
 
-    </view>
+    
+    <text name="md_publisher, md_developer, md_players, md_genre">
+      <visible>false</visible>
+      <pos>0 0</pos>
+      <size>0 0</size>
+    </text>
+
+    <datetime name="md_releasedate">
+      <visible>false</visible>
+      <pos>0 0</pos>
+      <size>0 0</size>
+    </datetime>
+
+</view>
 
 </theme>
