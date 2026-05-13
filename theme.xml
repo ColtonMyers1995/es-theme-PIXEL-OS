@@ -151,6 +151,11 @@
       <color>00000000</color>
     </image>
 
+    
+    <image name="background2">
+      <color>5090A8</color>
+    </image>
+
     <image name="forcedBG">
       <color>10667f</color>
     </image>
@@ -489,8 +494,9 @@
 </subset>
 
 <subset name="clockpos" displayName="${clockPosName}">
-<include name="Left">./assets/clock_left.xml</include>
 <include name="Right"/>
+<include name="Left 1">./assets/clock_left.xml</include>
+<include name="Left 2">./assets/clock_left2.xml</include>
 </subset>
 
 <view name="basic, detailed, video, grid">

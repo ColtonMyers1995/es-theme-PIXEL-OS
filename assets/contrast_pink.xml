@@ -7,5 +7,9 @@
         <image name="forcedBG">
             <color>906060FF</color>
         </image>
+    
+        <image name="background2">
+            <color>C09090FF</color>
+        </image>
     </view>
 </theme>
