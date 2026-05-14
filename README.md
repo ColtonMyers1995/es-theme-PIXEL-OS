@@ -93,7 +93,7 @@ Instead:
 
 # PIXEL OS Showcase
 
-## Full Layout Modes
+## Full Gamelist Modes
 
 ### Full Themed
 Transparent metadata overlay that preserves the internal theme background.
@@ -109,7 +109,7 @@ Terminal-inspired framed overlay with immersive pixel UI styling.
 
 ---
 
-## Gamelist Layout Variants
+## Simplified Gamelist Modes
 
 ### Left Layout
 Classic left-aligned gamelist configuration.
@@ -132,7 +132,7 @@ Centered gamelist presentation for cinematic browsing.
 
 ---
 
-## Contrast & Color Variants
+## Contrast & Color Variants (1 of 12)
 
 ### All Blue
 Full blue UI palette configuration.
@@ -179,13 +179,13 @@ Reduced UI mode focused on artwork and navigation clarity.
 
 ## System Presentation Styles
 
-### Themed/Forced Style
+### Bigger/User Style
 
 <img width="640" height="480" alt="Logo Iconx1" src="https://github.com/user-attachments/assets/0db95ddf-18ea-41fe-a062-25ca028c4312" />
 
 ---
 
-### Bigger Image Style
+### Themed/Forced Style
 
 <img width="640" height="480" alt="Logo Themed" src="https://github.com/user-attachments/assets/bb5542b3-5437-4f3c-b778-58564d4e4e01" />
 
