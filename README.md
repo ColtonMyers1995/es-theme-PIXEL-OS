@@ -134,14 +134,14 @@ Centered gamelist presentation for cinematic browsing.
 
 ## Contrast & Color Variants (1 of 12)
 
-### All Blue
-Full blue UI palette configuration.
+### Full-UI Color Control
+Full UI palette configuration.
 
 <img width="640" height="480" alt="All Blue" src="https://github.com/user-attachments/assets/da69d8bc-cb40-4929-9929-06d7f3a8a5fe" />
 
 ---
 
-### Blue Contrast
+### Contrast Control
 Enhanced contrast overlay for improved readability.
 
 <img width="640" height="480" alt="Blue Contrast" src="https://github.com/user-attachments/assets/a0124240-652a-4794-bf52-1097f7b6ad7a" />
@@ -174,6 +174,25 @@ Reduced UI mode focused on artwork and navigation clarity.
 ### Font Variant 3
 
 <img width="640" height="480" alt="Font3" src="https://github.com/user-attachments/assets/e11ac68b-656e-4f8b-a85b-c04d4e5bb7c5" />
+
+---
+
+## Label Styles
+
+### Logo Variant
+
+<img width="640" height="480" alt="Icon" src="https://github.com/user-attachments/assets/b81c83f2-5531-4927-8b97-bd2343471dba" />
+
+---
+
+### Icon Variant
+<img width="640" height="480" alt="Logo" src="https://github.com/user-attachments/assets/6d72b2c1-dde9-4b1a-bb92-6f9d5356deba" />
+
+---
+
+### Image Variant
+
+<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/10b4efda-4803-4e5d-acc8-244059ec77bb" />
 
 ---
 
@@ -211,6 +230,14 @@ Reduced UI mode focused on artwork and navigation clarity.
 
 ---
 
+## Theme Options
+
+### Exclusive Options
+
+<img width="1024" height="768" alt="Theme Options" src="https://github.com/user-attachments/assets/488cf8f2-45d3-4537-8269-4fe0c345065d" />
+
+---
+
 ## Installation (ArkOS)
 
 ```bash
@@ -220,13 +247,41 @@ git clone https://github.com/ColtonMyers1995/es-theme-PIXEL-OS.git
 
 ---
 
-## 🛠 Companion Tool
+## 🛠 Companion Tools
 
-PIXEL OS is designed to work with custom icon/logo/image PNGs.
+### PIXEL Label Manager
 
-For creating custom labels compatible with this theme:
+Create fully custom:
+- Logos
+- Icons
+- System Images
+- Typography Variants
+- Collection Labels
+
+Designed specifically for PIXEL OS modular customization.
 
 👉 https://github.com/ColtonMyers1995/pixel-label-manager
+
+---
+
+### ES Screenshot Tool
+
+A lightweight ArkOS screenshot utility designed for:
+- R36H
+- R36S
+- R46H
+- Other RK3326/RK3566 ArkOS handhelds
+
+Features:
+- EmulationStation screenshots
+- FFmpeg framebuffer capture
+- Persistent background daemon
+- L2 + R2 screenshot shortcut
+- Automatic export to `/roms/backup`
+
+Used to create all screenshots shown in this README.
+
+👉 https://github.com/ColtonMyers1995/ES-Screenshot
 
 ---
 
