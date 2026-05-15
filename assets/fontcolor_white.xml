@@ -11,12 +11,12 @@
     </menuText>
 
     <menuText name="menutext">
-      <color>FFFFFF</color>
-      <selectedColor>FFFFFF</selectedColor>
+      <color>E0E0E0</color>
+      <selectedColor>E0E0E0</selectedColor>
     </menuText>
 
     <menuTextSmall name="menutextsmall">
-      <color>FFFFFF</color>
+      <color>E0E0E0</color>
     </menuTextSmall>
 
 </view>
@@ -60,9 +60,9 @@
     </datetime>
 
     <textlist name="gamelist">
-      <primaryColor>FFFFFF</primaryColor>
-      <secondaryColor>FFFFFF</secondaryColor>
-      <selectedColor>FFFFFF</selectedColor>
+      <primaryColor>E0E0E0</primaryColor>
+      <secondaryColor>E0E0E0</secondaryColor>
+      <selectedColor>E0E0E0</selectedColor>
     </textlist>
 
     <text name="md_lbl_lastplayed">
@@ -82,7 +82,7 @@
     </text>
 
     <text name="systemInfo">
-      <color>FFFFFF</color>
+      <color>E0E0E0</color>
     </text>
 
 </view>
