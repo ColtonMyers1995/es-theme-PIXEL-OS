@@ -420,6 +420,8 @@
 <subset name="gamelistmode" displayName="${gamelistModeName}">
 <include name="Full Themed">./assets/gamelist_full.xml</include>
 <include name="Full Terminal">./assets/gamelist_fullt.xml</include>
+<include name="Image Terminal">./assets/gamelist_full+.xml</include>
+<include name="Image Themed">./assets/gamelist_full++.xml</include>
 <include name="Left"/>
 <include name="Center">./assets/gamelist_center.xml</include>
 <include name="Right">./assets/gamelist_right.xml</include>

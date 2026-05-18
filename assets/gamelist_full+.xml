@@ -1,0 +1,113 @@
+<theme>
+
+  <view name="basic, detailed">
+
+    <!-- Preserve original gamelist styling -->
+    <textlist name="gamelist">
+      <fontSize>0.06</fontSize>
+      <scrollSound>./sounds/scroll.wav</scrollSound>
+      <selectSound>./sounds/select.wav</selectSound>
+      <backSound>./sounds/back.wav</backSound>
+      <launchSound>./sounds/launch.wav</launchSound>
+      <visible>true</visible>
+      <zIndex>5</zIndex>
+    </textlist>
+
+  </view>
+
+  <view name="basic,detailed">
+
+    <!-- HIDE SYSTEM TEXT -->
+    <text name="system_name">
+      <visible>false</visible>
+    </text>
+
+    <!-- SYSTEM LOGO / LABEL (art folder) -->
+    <image name="system_logo" extra="true">
+      <path>./art/${system.theme}.png</path>
+      <origin>0 0</origin>
+      <pos>0.02 0.07</pos>
+      <maxSize>0.42 0.11</maxSize>
+      <zIndex>6</zIndex>
+    </image>
+
+    <!-- GAME LIST -->
+    <textlist name="gamelist">
+      <pos>0.515 0.085</pos>
+      <size>0.47 0.58</size>
+      <alignment>left</alignment>
+      <zIndex>5</zIndex>
+    </textlist>
+
+    <!-- TERMINAL OVERLAY -->
+    <image name="background2" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <path>./inc/images/bgd1.png</path>
+      <zIndex>3</zIndex>
+    </image>
+
+    <!-- BOX ART -->
+    <image name="md_image">
+      <origin>0.5 0.5</origin>
+      <pos>0.77 0.47</pos>
+      <size>0.30 0.30</size>
+      <zIndex>5</zIndex>
+    </image>
+
+    <!-- LARGE SYSTEM IMAGE (art3 folder) -->
+    <image name="system_image" extra="true">
+      <path>./art3/${system.theme}.png</path>
+      <origin>0.5 0.5</origin>
+      <pos>0.25 0.43</pos>
+      <maxSize>0.38 0.26</maxSize>
+      <zIndex>5</zIndex>
+    </image>
+
+    <!-- RATING -->
+    <rating name="md_rating">
+      <origin>0.5 0.5</origin>
+      <pos>0.25 0.73</pos>
+      <size>0.054 0.054</size>
+
+      <filledPath>./inc/images/star_filled.png</filledPath>
+      <unfilledPath>./inc/images/star_empty.png</unfilledPath>
+
+      <zIndex>6</zIndex>
+    </rating>
+
+    <!-- DESCRIPTION -->
+    <text name="md_description">
+      <pos>0.52 0.70</pos>
+      <size>0.32 0.20</size>
+      <fontSize>0.042</fontSize>
+      <color>c1c1c1</color>
+      <zIndex>5</zIndex>
+    </text>
+
+    <!-- SMALL SYSTEM ICON (art2 folder) -->
+    <image name="system_icon" extra="true">
+      <path>./art2/${system.theme}.png</path>
+      <origin>1 1</origin>
+      <pos>0.95 0.92</pos>
+      <maxSize>0.09 0.09</maxSize>
+      <zIndex>6</zIndex>
+    </image>
+
+    <!-- HIDE UNUSED METADATA -->
+    <text name="md_publisher,md_developer,md_players,md_genre">
+      <visible>false</visible>
+      <pos>0 0</pos>
+      <size>0 0</size>
+    </text>
+
+    <datetime name="md_releasedate">
+      <visible>false</visible>
+      <pos>0 0</pos>
+      <size>0 0</size>
+    </datetime>
+
+  </view>
+
+</theme>
