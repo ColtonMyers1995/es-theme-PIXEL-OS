@@ -13,11 +13,18 @@
   </view>
   <view name="basic,detailed">
 
+<!-- SYSTEM LOGO / LABEL -->
+<image name="system_logo" extra="true">
+  <path>./art/${system.theme}.png</path>
+  <origin>0 0</origin>
+  <pos>0.02 0.08</pos>
+  <maxSize>0.42 0.11</maxSize>
+  <zIndex>6</zIndex>
+</image>
+
+<!-- HIDE SYSTEM TEXT -->
 <text name="system_name">
-  <pos>0.02 0.10</pos>
-  <size>0.40 0.05</size>
-  <fontSize>0.072</fontSize>
-  <zIndex>5</zIndex>
+  <visible>false</visible>
 </text>
 
     <textlist name="gamelist">
