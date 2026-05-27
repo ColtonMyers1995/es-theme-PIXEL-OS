@@ -67,7 +67,7 @@
     <!-- RATING -->
     <rating name="md_rating">
       <origin>1 1</origin>
-      <pos>0.90 0.95</pos>
+      <pos>0.84 0.95</pos>
       <size>0.036 0.036</size>
 
       <filledPath>./inc/images/star_filled.png</filledPath>
@@ -87,7 +87,7 @@
     <image name="system_icon" extra="true">
       <path>./art2/${system.theme}.png</path>
       <origin>1 1</origin>
-      <pos>0.835 0.95</pos>
+      <pos>0.775 0.95</pos>
       <maxSize>0.05 0.05</maxSize>
       <zIndex>6</zIndex>
     </image>
